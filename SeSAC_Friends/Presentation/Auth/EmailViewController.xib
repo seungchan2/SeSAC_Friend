@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmailViewController" customModule="SeSAC_Friends" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="SeSAC@email.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yp6-xQ-Fb5">
+                    <rect key="frame" x="16" y="197.5" width="382" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="kzK-vR-ck3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S4d-Mj-mrl">
+                    <rect key="frame" x="16" y="261.5" width="382" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="Qsc-XH-Qyt"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="다음"/>
+                </button>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="frH-YI-bLd">
+                    <rect key="frame" x="69" y="101.5" width="276.5" height="66"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이메일을 입력해주세요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Fn-GA-ceu">
+                            <rect key="frame" x="62.5" y="0.0" width="151.5" height="32"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="32" id="a3H-cf-hRa"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="휴대폰 번호 변경 시 인증을 위해 사용해요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Va-O4-dzw">
+                            <rect key="frame" x="0.0" y="40" width="276.5" height="26"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="26" id="7bS-nJ-mW9"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="utt-Rt-6PY">
+                    <rect key="frame" x="16" y="230.5" width="382" height="1"/>
+                    <color key="backgroundColor" name="sasacGray3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="To1-3t-Z3u"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="utt-Rt-6PY" firstAttribute="bottom" secondItem="Yp6-xQ-Fb5" secondAttribute="bottom" id="2PK-WE-64v"/>
+                <constraint firstItem="frH-YI-bLd" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="0.3" id="2jA-5I-cR1"/>
+                <constraint firstItem="S4d-Mj-mrl" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="72n-JJ-PcT"/>
+                <constraint firstItem="utt-Rt-6PY" firstAttribute="trailing" secondItem="Yp6-xQ-Fb5" secondAttribute="trailing" id="JuJ-00-xt7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="S4d-Mj-mrl" secondAttribute="trailing" constant="16" id="UFy-MN-qvR"/>
+                <constraint firstItem="utt-Rt-6PY" firstAttribute="leading" secondItem="Yp6-xQ-Fb5" secondAttribute="leading" id="WfB-cV-WYC"/>
+                <constraint firstItem="Yp6-xQ-Fb5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="ZiJ-LJ-xtK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Yp6-xQ-Fb5" secondAttribute="trailing" constant="16" id="bV2-r8-MGe"/>
+                <constraint firstItem="S4d-Mj-mrl" firstAttribute="top" secondItem="Yp6-xQ-Fb5" secondAttribute="bottom" constant="30" id="egH-a6-yio"/>
+                <constraint firstItem="Yp6-xQ-Fb5" firstAttribute="top" secondItem="frH-YI-bLd" secondAttribute="bottom" constant="30" id="gZT-G1-0bd"/>
+                <constraint firstItem="frH-YI-bLd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ir4-2l-UNu"/>
+            </constraints>
+            <point key="canvasLocation" x="342" y="60"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="sasacGray3">
+            <color red="0.88627450980392153" green="0.88627450980392153" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

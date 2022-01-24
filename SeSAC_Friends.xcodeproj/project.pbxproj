@@ -7,7 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC4D53B4279E8D11009D5E71 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4D53B3279E8D11009D5E71 /* Color.xcassets */; };
+		EC4D53B7279E8E0C009D5E71 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53B6279E8E0C009D5E71 /* Color.swift */; };
+		EC4D53B9279E8E16009D5E71 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53B8279E8E16009D5E71 /* Image.swift */; };
+		EC4D53BC279E8FCF009D5E71 /* AnyFormatKit in Frameworks */ = {isa = PBXBuildFile; productRef = EC4D53BB279E8FCF009D5E71 /* AnyFormatKit */; };
+		EC4D53BF279E8FDE009D5E71 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EC4D53BE279E8FDE009D5E71 /* SnapKit */; };
+		EC4D53C2279E8FEA009D5E71 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = EC4D53C1279E8FEA009D5E71 /* Then */; };
+		EC4D53C5279E9741009D5E71 /* NicknameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53C3279E9741009D5E71 /* NicknameViewController.swift */; };
+		EC4D53C6279E9741009D5E71 /* NicknameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4D53C4279E9741009D5E71 /* NicknameViewController.xib */; };
+		EC4D53C9279E99CF009D5E71 /* BirthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53C7279E99CF009D5E71 /* BirthViewController.swift */; };
+		EC4D53CA279E99CF009D5E71 /* BirthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4D53C8279E99CF009D5E71 /* BirthViewController.xib */; };
+		EC4D53CD279E99E3009D5E71 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53CB279E99E3009D5E71 /* EmailViewController.swift */; };
+		EC4D53CE279E99E3009D5E71 /* EmailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4D53CC279E99E3009D5E71 /* EmailViewController.xib */; };
+		EC4D53D1279E99F4009D5E71 /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53CF279E99F4009D5E71 /* GenderViewController.swift */; };
+		EC4D53D2279E99F4009D5E71 /* GenderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4D53D0279E99F4009D5E71 /* GenderViewController.xib */; };
 		EC6134AA2796610100DCE48C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6134A92796610100DCE48C /* BaseViewController.swift */; };
+		EC6134B42796A11E00DCE48C /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6134B22796A11E00DCE48C /* PhoneViewController.swift */; };
+		EC6134B52796A11E00DCE48C /* PhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6134B32796A11E00DCE48C /* PhoneViewController.xib */; };
+		EC6134B82796A32100DCE48C /* EasyKit in Frameworks */ = {isa = PBXBuildFile; productRef = EC6134B72796A32100DCE48C /* EasyKit */; };
+		EC6134BB2796A63000DCE48C /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6134B92796A63000DCE48C /* MessageViewController.swift */; };
+		EC6134BC2796A63000DCE48C /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6134BA2796A63000DCE48C /* MessageViewController.xib */; };
 		ECB2F3E727965CAC00BCCA60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2F3E627965CAC00BCCA60 /* AppDelegate.swift */; };
 		ECB2F3E927965CAC00BCCA60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2F3E827965CAC00BCCA60 /* SceneDelegate.swift */; };
 		ECB2F3F027965CAD00BCCA60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB2F3EF27965CAD00BCCA60 /* Assets.xcassets */; };
@@ -15,7 +34,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC4D53B3279E8D11009D5E71 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		EC4D53B6279E8E0C009D5E71 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		EC4D53B8279E8E16009D5E71 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		EC4D53C3279E9741009D5E71 /* NicknameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController.swift; sourceTree = "<group>"; };
+		EC4D53C4279E9741009D5E71 /* NicknameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NicknameViewController.xib; sourceTree = "<group>"; };
+		EC4D53C7279E99CF009D5E71 /* BirthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthViewController.swift; sourceTree = "<group>"; };
+		EC4D53C8279E99CF009D5E71 /* BirthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BirthViewController.xib; sourceTree = "<group>"; };
+		EC4D53CB279E99E3009D5E71 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		EC4D53CC279E99E3009D5E71 /* EmailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailViewController.xib; sourceTree = "<group>"; };
+		EC4D53CF279E99F4009D5E71 /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
+		EC4D53D0279E99F4009D5E71 /* GenderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenderViewController.xib; sourceTree = "<group>"; };
 		EC6134A92796610100DCE48C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		EC6134B22796A11E00DCE48C /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		EC6134B32796A11E00DCE48C /* PhoneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhoneViewController.xib; sourceTree = "<group>"; };
+		EC6134B92796A63000DCE48C /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		EC6134BA2796A63000DCE48C /* MessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
 		ECB2F3E327965CAC00BCCA60 /* SeSAC_Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSAC_Friends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB2F3E627965CAC00BCCA60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECB2F3E827965CAC00BCCA60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,12 +63,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC4D53BF279E8FDE009D5E71 /* SnapKit in Frameworks */,
+				EC6134B82796A32100DCE48C /* EasyKit in Frameworks */,
+				EC4D53BC279E8FCF009D5E71 /* AnyFormatKit in Frameworks */,
+				EC4D53C2279E8FEA009D5E71 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC4D53B5279E8DF3009D5E71 /* NameSpace */ = {
+			isa = PBXGroup;
+			children = (
+				EC4D53B6279E8E0C009D5E71 /* Color.swift */,
+				EC4D53B8279E8E16009D5E71 /* Image.swift */,
+			);
+			path = NameSpace;
+			sourceTree = "<group>";
+		};
 		EC61349D2796601000DCE48C /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +165,7 @@
 		EC6134A7279660BD00DCE48C /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				EC4D53B5279E8DF3009D5E71 /* NameSpace */,
 				EC6134A8279660F500DCE48C /* Base */,
 			);
 			path = Common;
@@ -134,6 +182,18 @@
 		EC6134AB2796611D00DCE48C /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				EC6134B22796A11E00DCE48C /* PhoneViewController.swift */,
+				EC6134B32796A11E00DCE48C /* PhoneViewController.xib */,
+				EC6134B92796A63000DCE48C /* MessageViewController.swift */,
+				EC6134BA2796A63000DCE48C /* MessageViewController.xib */,
+				EC4D53C3279E9741009D5E71 /* NicknameViewController.swift */,
+				EC4D53C4279E9741009D5E71 /* NicknameViewController.xib */,
+				EC4D53C7279E99CF009D5E71 /* BirthViewController.swift */,
+				EC4D53C8279E99CF009D5E71 /* BirthViewController.xib */,
+				EC4D53CB279E99E3009D5E71 /* EmailViewController.swift */,
+				EC4D53CC279E99E3009D5E71 /* EmailViewController.xib */,
+				EC4D53CF279E99F4009D5E71 /* GenderViewController.swift */,
+				EC4D53D0279E99F4009D5E71 /* GenderViewController.xib */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -144,6 +204,7 @@
 				EC6134AD2796614D00DCE48C /* Font */,
 				ECB2F3F127965CAD00BCCA60 /* LaunchScreen.storyboard */,
 				ECB2F3EF27965CAD00BCCA60 /* Assets.xcassets */,
+				EC4D53B3279E8D11009D5E71 /* Color.xcassets */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -205,12 +266,12 @@
 		ECB2F3E527965CAC00BCCA60 /* SeSAC_Friends */ = {
 			isa = PBXGroup;
 			children = (
+				EC61349D2796601000DCE48C /* Application */,
+				EC6134A6279660AB00DCE48C /* Presentation */,
+				EC6134AC2796613C00DCE48C /* Resource */,
 				EC6134AF279661AC00DCE48C /* Service */,
 				EC6134A22796607200DCE48C /* Data */,
 				EC61349E2796603400DCE48C /* Common */,
-				EC61349D2796601000DCE48C /* Application */,
-				EC6134AC2796613C00DCE48C /* Resource */,
-				EC6134A6279660AB00DCE48C /* Presentation */,
 				EC6134AE2796616100DCE48C /* Support */,
 			);
 			path = SeSAC_Friends;
@@ -232,6 +293,12 @@
 			dependencies = (
 			);
 			name = SeSAC_Friends;
+			packageProductDependencies = (
+				EC6134B72796A32100DCE48C /* EasyKit */,
+				EC4D53BB279E8FCF009D5E71 /* AnyFormatKit */,
+				EC4D53BE279E8FDE009D5E71 /* SnapKit */,
+				EC4D53C1279E8FEA009D5E71 /* Then */,
+			);
 			productName = SeSAC_Friends;
 			productReference = ECB2F3E327965CAC00BCCA60 /* SeSAC_Friends.app */;
 			productType = "com.apple.product-type.application";
@@ -260,6 +327,12 @@
 				Base,
 			);
 			mainGroup = ECB2F3DA27965CAC00BCCA60;
+			packageReferences = (
+				EC6134B62796A32100DCE48C /* XCRemoteSwiftPackageReference "EasyKit" */,
+				EC4D53BA279E8FCF009D5E71 /* XCRemoteSwiftPackageReference "AnyFormatKit" */,
+				EC4D53BD279E8FDE009D5E71 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				EC4D53C0279E8FEA009D5E71 /* XCRemoteSwiftPackageReference "Then" */,
+			);
 			productRefGroup = ECB2F3E427965CAC00BCCA60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -274,8 +347,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC4D53C6279E9741009D5E71 /* NicknameViewController.xib in Resources */,
 				ECB2F3F327965CAD00BCCA60 /* LaunchScreen.storyboard in Resources */,
+				EC4D53CA279E99CF009D5E71 /* BirthViewController.xib in Resources */,
+				EC6134B52796A11E00DCE48C /* PhoneViewController.xib in Resources */,
+				EC4D53B4279E8D11009D5E71 /* Color.xcassets in Resources */,
+				EC6134BC2796A63000DCE48C /* MessageViewController.xib in Resources */,
 				ECB2F3F027965CAD00BCCA60 /* Assets.xcassets in Resources */,
+				EC4D53D2279E99F4009D5E71 /* GenderViewController.xib in Resources */,
+				EC4D53CE279E99E3009D5E71 /* EmailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,9 +366,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC4D53B9279E8E16009D5E71 /* Image.swift in Sources */,
 				ECB2F3E727965CAC00BCCA60 /* AppDelegate.swift in Sources */,
+				EC4D53C9279E99CF009D5E71 /* BirthViewController.swift in Sources */,
+				EC6134B42796A11E00DCE48C /* PhoneViewController.swift in Sources */,
 				ECB2F3E927965CAC00BCCA60 /* SceneDelegate.swift in Sources */,
+				EC4D53C5279E9741009D5E71 /* NicknameViewController.swift in Sources */,
+				EC4D53D1279E99F4009D5E71 /* GenderViewController.swift in Sources */,
 				EC6134AA2796610100DCE48C /* BaseViewController.swift in Sources */,
+				EC6134BB2796A63000DCE48C /* MessageViewController.swift in Sources */,
+				EC4D53B7279E8E0C009D5E71 /* Color.swift in Sources */,
+				EC4D53CD279E99E3009D5E71 /* EmailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +586,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC4D53BA279E8FCF009D5E71 /* XCRemoteSwiftPackageReference "AnyFormatKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/luximetr/AnyFormatKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		EC4D53BD279E8FDE009D5E71 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		EC4D53C0279E8FEA009D5E71 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		EC6134B62796A32100DCE48C /* XCRemoteSwiftPackageReference "EasyKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Taehyeon-Kim/EasyKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC4D53BB279E8FCF009D5E71 /* AnyFormatKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC4D53BA279E8FCF009D5E71 /* XCRemoteSwiftPackageReference "AnyFormatKit" */;
+			productName = AnyFormatKit;
+		};
+		EC4D53BE279E8FDE009D5E71 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC4D53BD279E8FDE009D5E71 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		EC4D53C1279E8FEA009D5E71 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC4D53C0279E8FEA009D5E71 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		EC6134B72796A32100DCE48C /* EasyKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC6134B62796A32100DCE48C /* XCRemoteSwiftPackageReference "EasyKit" */;
+			productName = EasyKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ECB2F3DB27965CAC00BCCA60 /* Project object */;
 }
