@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MessageViewController" customModule="SeSAC_Friends" customModuleProvider="target">
             <connections>
+                <outlet property="timerLabel" destination="7yU-c0-niV" id="Vv5-fK-KrX"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -48,6 +49,9 @@
                     <rect key="frame" x="327" y="229.5" width="67" height="31"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                    <connections>
+                        <action selector="resendButtonClicked:" destination="-1" eventType="touchUpInside" id="Zfn-a9-KaE"/>
+                    </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yU-c0-niV">
                     <rect key="frame" x="271" y="234.5" width="41.5" height="20.5"/>
@@ -62,6 +66,17 @@
                         <constraint firstAttribute="height" constant="1" id="fXm-pa-uwM"/>
                     </constraints>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vif-gV-cJ6">
+                    <rect key="frame" x="20" y="292" width="374" height="48"/>
+                    <color key="backgroundColor" name="sesacGray6"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="DGE-ru-o9W"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="인증하고 시작하기">
+                        <color key="titleColor" name="sesacGray3"/>
+                    </state>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -70,10 +85,13 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LFl-TU-MoK" secondAttribute="trailing" constant="20" id="4HQ-er-kt9"/>
                 <constraint firstItem="LFl-TU-MoK" firstAttribute="centerY" secondItem="EUO-zA-eZF" secondAttribute="centerY" id="5ON-aB-Gon"/>
                 <constraint firstItem="7yU-c0-niV" firstAttribute="leading" secondItem="EUO-zA-eZF" secondAttribute="trailing" constant="-48" id="AT7-6K-Zgb"/>
+                <constraint firstItem="vif-gV-cJ6" firstAttribute="top" secondItem="EUO-zA-eZF" secondAttribute="bottom" constant="30" id="AcT-DT-IUH"/>
                 <constraint firstItem="0Mf-Y2-EaJ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="0.3" id="J1T-eW-viJ"/>
+                <constraint firstItem="vif-gV-cJ6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="OM2-du-rYG"/>
                 <constraint firstItem="u3r-0t-1nK" firstAttribute="leading" secondItem="EUO-zA-eZF" secondAttribute="leading" id="SvX-CU-dST"/>
                 <constraint firstItem="EUO-zA-eZF" firstAttribute="top" secondItem="0Mf-Y2-EaJ" secondAttribute="bottom" constant="69" id="Tp2-DN-ITd"/>
                 <constraint firstItem="LFl-TU-MoK" firstAttribute="leading" secondItem="EUO-zA-eZF" secondAttribute="trailing" constant="8" id="Xva-0t-ynC"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="vif-gV-cJ6" secondAttribute="trailing" constant="20" id="aNj-Gk-Cch"/>
                 <constraint firstItem="7yU-c0-niV" firstAttribute="centerY" secondItem="EUO-zA-eZF" secondAttribute="centerY" id="b1W-nh-Hpa"/>
                 <constraint firstItem="0Mf-Y2-EaJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cVP-ZY-aCB"/>
                 <constraint firstItem="EUO-zA-eZF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="dYL-Gl-xAL"/>
@@ -85,6 +103,12 @@
     <resources>
         <namedColor name="sasacGray3">
             <color red="0.88627450980392153" green="0.88627450980392153" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="sesacGray3">
+            <color red="0.88627450980392153" green="0.88627450980392153" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="sesacGray6">
+            <color red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

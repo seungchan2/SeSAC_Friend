@@ -12,7 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhoneViewController" customModule="SeSAC_Friends" customModuleProvider="target">
             <connections>
                 <outlet property="confirmButton" destination="mF6-W1-f1u" id="ftx-OF-Scy"/>
-                <outlet property="phoneBottonView" destination="mF6-W1-f1u" id="gJw-qo-36N"/>
+                <outlet property="phoneBottomView" destination="3gM-Or-RaN" id="vxo-Oh-4ig"/>
                 <outlet property="phoneNumberTextField" destination="F9s-3w-fR4" id="VuW-P7-p69"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -34,7 +34,7 @@
                         <constraint firstAttribute="height" constant="44" id="IN9-0T-2aN"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
+                    <textInputTraits key="textInputTraits" textContentType="tel"/>
                 </textField>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gM-Or-RaN">
                     <rect key="frame" x="16" y="255.5" width="382" height="1"/>
@@ -45,7 +45,7 @@
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mF6-W1-f1u">
                     <rect key="frame" x="16" y="306.5" width="382" height="48"/>
-                    <color key="backgroundColor" name="sesacGray7"/>
+                    <color key="backgroundColor" name="sesacGray6"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="48" id="Z36-fS-UtI"/>
                     </constraints>
@@ -77,8 +77,8 @@
         <namedColor name="sasacGray3">
             <color red="0.88627450980392153" green="0.88627450980392153" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <namedColor name="sesacGray7">
-            <color red="0.53333333333333333" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <namedColor name="sesacGray6">
+            <color red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

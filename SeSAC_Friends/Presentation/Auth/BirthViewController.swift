@@ -13,7 +13,4 @@ final class BirthViewController: BaseViewController {
         super.viewDidLoad()
 
     }
-
-
-  
 }
