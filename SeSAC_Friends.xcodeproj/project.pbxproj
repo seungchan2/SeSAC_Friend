@@ -32,10 +32,19 @@
 		ECB2F3E927965CAC00BCCA60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2F3E827965CAC00BCCA60 /* SceneDelegate.swift */; };
 		ECB2F3F027965CAD00BCCA60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB2F3EF27965CAD00BCCA60 /* Assets.xcassets */; };
 		ECB2F3F327965CAD00BCCA60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB2F3F127965CAD00BCCA60 /* LaunchScreen.storyboard */; };
-		ECB6A6E5279F93CB00E55E2C /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A6E4279F93CB00E55E2C /* URL.swift */; };
 		ECB6A6E827A0482B00E55E2C /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A6E727A0482B00E55E2C /* NetworkService.swift */; };
 		ECB6A6EA27A0484200E55E2C /* GenericResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A6E927A0484200E55E2C /* GenericResponse.swift */; };
 		ECB6A6EF27A049D700E55E2C /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = ECB6A6EE27A049D700E55E2C /* Moya */; };
+		ECB6A6F227A09E4E00E55E2C /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A6F127A09E4E00E55E2C /* TabBarItem.swift */; };
+		ECB6A6F427A09E5700E55E2C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A6F327A09E5700E55E2C /* TabBarController.swift */; };
+		ECB6A6F827A0A0EA00E55E2C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A6F627A0A0EA00E55E2C /* HomeViewController.swift */; };
+		ECB6A6F927A0A0EA00E55E2C /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB6A6F727A0A0EA00E55E2C /* HomeViewController.xib */; };
+		ECB6A70227A0A11700E55E2C /* SeSacFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A70027A0A11700E55E2C /* SeSacFriendViewController.swift */; };
+		ECB6A70327A0A11700E55E2C /* SeSacFriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB6A70127A0A11700E55E2C /* SeSacFriendViewController.xib */; };
+		ECB6A70727A0A12A00E55E2C /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A70527A0A12A00E55E2C /* InfoViewController.swift */; };
+		ECB6A70827A0A12A00E55E2C /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB6A70627A0A12A00E55E2C /* InfoViewController.xib */; };
+		ECB6A70B27A0A1E600E55E2C /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A70927A0A1E600E55E2C /* ShopViewController.swift */; };
+		ECB6A70C27A0A1E600E55E2C /* ShopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB6A70A27A0A1E600E55E2C /* ShopViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,9 +71,18 @@
 		ECB2F3EF27965CAD00BCCA60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECB2F3F227965CAD00BCCA60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECB2F3F427965CAD00BCCA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ECB6A6E4279F93CB00E55E2C /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = URL.swift; path = ../../../../../../Documents/URL.swift; sourceTree = "<group>"; };
 		ECB6A6E727A0482B00E55E2C /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		ECB6A6E927A0484200E55E2C /* GenericResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericResponse.swift; sourceTree = "<group>"; };
+		ECB6A6F127A09E4E00E55E2C /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		ECB6A6F327A09E5700E55E2C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		ECB6A6F627A0A0EA00E55E2C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ECB6A6F727A0A0EA00E55E2C /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		ECB6A70027A0A11700E55E2C /* SeSacFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSacFriendViewController.swift; sourceTree = "<group>"; };
+		ECB6A70127A0A11700E55E2C /* SeSacFriendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeSacFriendViewController.xib; sourceTree = "<group>"; };
+		ECB6A70527A0A12A00E55E2C /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		ECB6A70627A0A12A00E55E2C /* InfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		ECB6A70927A0A1E600E55E2C /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		ECB6A70A27A0A1E600E55E2C /* ShopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +106,6 @@
 			children = (
 				EC4D53B6279E8E0C009D5E71 /* Color.swift */,
 				EC4D53B8279E8E16009D5E71 /* Image.swift */,
-				ECB6A6E4279F93CB00E55E2C /* URL.swift */,
 			);
 			path = NameSpace;
 			sourceTree = "<group>";
@@ -105,6 +122,7 @@
 		EC61349E2796603400DCE48C /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				EC4D53B5279E8DF3009D5E71 /* NameSpace */,
 				EC6134A12796605500DCE48C /* Protocol */,
 				EC6134A02796604E00DCE48C /* Extension */,
 				EC61349F2796603B00DCE48C /* Constant */,
@@ -167,6 +185,10 @@
 		EC6134A6279660AB00DCE48C /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				ECB6A6F527A0A0DB00E55E2C /* Home */,
+				ECB6A6FA27A0A0ED00E55E2C /* Shop */,
+				ECB6A6FF27A0A10300E55E2C /* SeSacFriend */,
+				ECB6A70427A0A11900E55E2C /* Information */,
 				EC6134A7279660BD00DCE48C /* Common */,
 				EC6134AB2796611D00DCE48C /* Auth */,
 			);
@@ -176,7 +198,7 @@
 		EC6134A7279660BD00DCE48C /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				EC4D53B5279E8DF3009D5E71 /* NameSpace */,
+				ECB6A6F027A09E2C00E55E2C /* Tabbar */,
 				EC6134A8279660F500DCE48C /* Base */,
 			);
 			path = Common;
@@ -291,6 +313,51 @@
 			path = SeSAC_Friends;
 			sourceTree = "<group>";
 		};
+		ECB6A6F027A09E2C00E55E2C /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				ECB6A6F127A09E4E00E55E2C /* TabBarItem.swift */,
+				ECB6A6F327A09E5700E55E2C /* TabBarController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		ECB6A6F527A0A0DB00E55E2C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ECB6A6F627A0A0EA00E55E2C /* HomeViewController.swift */,
+				ECB6A6F727A0A0EA00E55E2C /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		ECB6A6FA27A0A0ED00E55E2C /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				ECB6A70927A0A1E600E55E2C /* ShopViewController.swift */,
+				ECB6A70A27A0A1E600E55E2C /* ShopViewController.xib */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		ECB6A6FF27A0A10300E55E2C /* SeSacFriend */ = {
+			isa = PBXGroup;
+			children = (
+				ECB6A70027A0A11700E55E2C /* SeSacFriendViewController.swift */,
+				ECB6A70127A0A11700E55E2C /* SeSacFriendViewController.xib */,
+			);
+			path = SeSacFriend;
+			sourceTree = "<group>";
+		};
+		ECB6A70427A0A11900E55E2C /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				ECB6A70527A0A12A00E55E2C /* InfoViewController.swift */,
+				ECB6A70627A0A12A00E55E2C /* InfoViewController.xib */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -367,12 +434,16 @@
 				ECB2F3F327965CAD00BCCA60 /* LaunchScreen.storyboard in Resources */,
 				EC4D53CA279E99CF009D5E71 /* BirthViewController.xib in Resources */,
 				EC6134B52796A11E00DCE48C /* PhoneViewController.xib in Resources */,
+				ECB6A70C27A0A1E600E55E2C /* ShopViewController.xib in Resources */,
 				EC4D53B4279E8D11009D5E71 /* Color.xcassets in Resources */,
 				EC6134BC2796A63000DCE48C /* MessageViewController.xib in Resources */,
 				ECB2F3F027965CAD00BCCA60 /* Assets.xcassets in Resources */,
 				EC4D53D4279F5698009D5E71 /* Image.xcassets in Resources */,
 				EC4D53D2279E99F4009D5E71 /* GenderViewController.xib in Resources */,
 				EC4D53CE279E99E3009D5E71 /* EmailViewController.xib in Resources */,
+				ECB6A70327A0A11700E55E2C /* SeSacFriendViewController.xib in Resources */,
+				ECB6A70827A0A12A00E55E2C /* InfoViewController.xib in Resources */,
+				ECB6A6F927A0A0EA00E55E2C /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,17 +457,22 @@
 				EC4D53B9279E8E16009D5E71 /* Image.swift in Sources */,
 				ECB2F3E727965CAC00BCCA60 /* AppDelegate.swift in Sources */,
 				EC4D53C9279E99CF009D5E71 /* BirthViewController.swift in Sources */,
+				ECB6A6F427A09E5700E55E2C /* TabBarController.swift in Sources */,
 				EC6134B42796A11E00DCE48C /* PhoneViewController.swift in Sources */,
+				ECB6A6F227A09E4E00E55E2C /* TabBarItem.swift in Sources */,
 				ECB2F3E927965CAC00BCCA60 /* SceneDelegate.swift in Sources */,
 				EC4D53C5279E9741009D5E71 /* NicknameViewController.swift in Sources */,
 				ECB6A6EA27A0484200E55E2C /* GenericResponse.swift in Sources */,
 				EC4D53D1279E99F4009D5E71 /* GenderViewController.swift in Sources */,
+				ECB6A70B27A0A1E600E55E2C /* ShopViewController.swift in Sources */,
 				EC6134AA2796610100DCE48C /* BaseViewController.swift in Sources */,
+				ECB6A6F827A0A0EA00E55E2C /* HomeViewController.swift in Sources */,
 				EC6134BB2796A63000DCE48C /* MessageViewController.swift in Sources */,
+				ECB6A70227A0A11700E55E2C /* SeSacFriendViewController.swift in Sources */,
 				EC4D53B7279E8E0C009D5E71 /* Color.swift in Sources */,
 				EC4D53CD279E99E3009D5E71 /* EmailViewController.swift in Sources */,
 				ECB6A6E827A0482B00E55E2C /* NetworkService.swift in Sources */,
-				ECB6A6E5279F93CB00E55E2C /* URL.swift in Sources */,
+				ECB6A70727A0A12A00E55E2C /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
