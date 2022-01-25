@@ -77,6 +77,11 @@
                         <color key="titleColor" name="sesacGray3"/>
                     </state>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p6u-I0-wzY">
+                    <rect key="frame" x="19" y="57" width="24" height="24"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="sesacBack"/>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -84,8 +89,10 @@
                 <constraint firstItem="u3r-0t-1nK" firstAttribute="trailing" secondItem="EUO-zA-eZF" secondAttribute="trailing" id="23N-Nt-MP4"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LFl-TU-MoK" secondAttribute="trailing" constant="20" id="4HQ-er-kt9"/>
                 <constraint firstItem="LFl-TU-MoK" firstAttribute="centerY" secondItem="EUO-zA-eZF" secondAttribute="centerY" id="5ON-aB-Gon"/>
+                <constraint firstItem="p6u-I0-wzY" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="13" id="9he-Xr-bqX"/>
                 <constraint firstItem="7yU-c0-niV" firstAttribute="leading" secondItem="EUO-zA-eZF" secondAttribute="trailing" constant="-48" id="AT7-6K-Zgb"/>
                 <constraint firstItem="vif-gV-cJ6" firstAttribute="top" secondItem="EUO-zA-eZF" secondAttribute="bottom" constant="30" id="AcT-DT-IUH"/>
+                <constraint firstItem="p6u-I0-wzY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="19" id="DH2-Wh-Yho"/>
                 <constraint firstItem="0Mf-Y2-EaJ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="0.3" id="J1T-eW-viJ"/>
                 <constraint firstItem="vif-gV-cJ6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="OM2-du-rYG"/>
                 <constraint firstItem="u3r-0t-1nK" firstAttribute="leading" secondItem="EUO-zA-eZF" secondAttribute="leading" id="SvX-CU-dST"/>
@@ -101,6 +108,7 @@
         </view>
     </objects>
     <resources>
+        <image name="sesacBack" width="24" height="24"/>
         <namedColor name="sasacGray3">
             <color red="0.88627450980392153" green="0.88627450980392153" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

@@ -68,6 +68,11 @@
                         <constraint firstAttribute="height" constant="1" id="To1-3t-Z3u"/>
                     </constraints>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nv6-4I-uuf">
+                    <rect key="frame" x="19" y="57" width="24" height="24"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="sesacBack"/>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -76,18 +81,21 @@
                 <constraint firstItem="frH-YI-bLd" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="0.3" id="2jA-5I-cR1"/>
                 <constraint firstItem="S4d-Mj-mrl" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="72n-JJ-PcT"/>
                 <constraint firstItem="utt-Rt-6PY" firstAttribute="trailing" secondItem="Yp6-xQ-Fb5" secondAttribute="trailing" id="JuJ-00-xt7"/>
+                <constraint firstItem="nv6-4I-uuf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="13" id="Lml-ra-482"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="S4d-Mj-mrl" secondAttribute="trailing" constant="16" id="UFy-MN-qvR"/>
                 <constraint firstItem="utt-Rt-6PY" firstAttribute="leading" secondItem="Yp6-xQ-Fb5" secondAttribute="leading" id="WfB-cV-WYC"/>
                 <constraint firstItem="Yp6-xQ-Fb5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="ZiJ-LJ-xtK"/>
+                <constraint firstItem="nv6-4I-uuf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="19" id="agQ-pQ-WxY"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Yp6-xQ-Fb5" secondAttribute="trailing" constant="16" id="bV2-r8-MGe"/>
                 <constraint firstItem="S4d-Mj-mrl" firstAttribute="top" secondItem="Yp6-xQ-Fb5" secondAttribute="bottom" constant="30" id="egH-a6-yio"/>
                 <constraint firstItem="Yp6-xQ-Fb5" firstAttribute="top" secondItem="frH-YI-bLd" secondAttribute="bottom" constant="30" id="gZT-G1-0bd"/>
                 <constraint firstItem="frH-YI-bLd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ir4-2l-UNu"/>
             </constraints>
-            <point key="canvasLocation" x="342" y="60"/>
+            <point key="canvasLocation" x="700" y="358"/>
         </view>
     </objects>
     <resources>
+        <image name="sesacBack" width="24" height="24"/>
         <namedColor name="sasacGray3">
             <color red="0.88627450980392153" green="0.88627450980392153" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

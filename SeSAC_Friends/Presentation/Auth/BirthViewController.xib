@@ -114,13 +114,20 @@
                         <color key="titleColor" name="sesacGray3"/>
                     </state>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xpB-3q-KEg">
+                    <rect key="frame" x="19" y="57" width="24" height="24"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="sesacBack"/>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yre-J6-sfQ" secondAttribute="trailing" constant="20" id="3oL-4Y-GfE"/>
+                <constraint firstItem="xpB-3q-KEg" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="13" id="41U-X2-OwH"/>
                 <constraint firstItem="Lqj-45-iu8" firstAttribute="top" secondItem="toT-PT-W6N" secondAttribute="bottom" constant="59" id="ACn-iF-lRd"/>
                 <constraint firstItem="re6-Nx-5RO" firstAttribute="trailing" secondItem="GAK-6r-IbX" secondAttribute="trailing" id="Bf2-pT-vcZ"/>
+                <constraint firstItem="xpB-3q-KEg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="19" id="Cxv-98-psp"/>
                 <constraint firstItem="BSM-mX-h6t" firstAttribute="trailing" secondItem="a6y-iq-ozk" secondAttribute="trailing" id="RSg-br-gCZ"/>
                 <constraint firstItem="toT-PT-W6N" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="YhK-nB-2aQ"/>
                 <constraint firstItem="yre-J6-sfQ" firstAttribute="top" secondItem="Lqj-45-iu8" secondAttribute="bottom" constant="50" id="eLx-Ao-Jsk"/>
@@ -145,6 +152,7 @@
         </pickerView>
     </objects>
     <resources>
+        <image name="sesacBack" width="24" height="24"/>
         <namedColor name="sasacGray3">
             <color red="0.88627450980392153" green="0.88627450980392153" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

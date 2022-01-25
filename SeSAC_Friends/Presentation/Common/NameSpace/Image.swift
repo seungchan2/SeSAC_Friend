@@ -11,4 +11,5 @@ public enum Image {
     public static let sesacFriends = UIImage(named: "sesacFriends")!
     public static let sesacMan = UIImage(named: "sesacMan")!
     public static let sesacWoman = UIImage(named: "sesacWoman")!
+    public static let sesacBack = UIImage(named: "sesacBack")!
 }

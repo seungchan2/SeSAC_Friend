@@ -51,12 +51,19 @@
                         <constraint firstAttribute="height" constant="1" id="3QY-1C-SKO"/>
                     </constraints>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cdq-rY-XpH">
+                    <rect key="frame" x="19" y="57" width="24" height="24"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="sesacBack"/>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="Cdq-rY-XpH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="19" id="0zV-hb-F4r"/>
                 <constraint firstItem="Wd0-vP-FJJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="EgH-It-dTu"/>
                 <constraint firstItem="efZ-pk-grW" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="0.3" id="M8b-AG-zAU"/>
+                <constraint firstItem="Cdq-rY-XpH" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="13" id="Qom-co-JnA"/>
                 <constraint firstItem="POv-rd-YIo" firstAttribute="top" secondItem="Wd0-vP-FJJ" secondAttribute="bottom" constant="50" id="WWc-y0-AeQ"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="eoP-14-FUV" secondAttribute="trailing" constant="20" id="a2t-rm-4PB"/>
                 <constraint firstItem="efZ-pk-grW" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="c7s-jT-qFA"/>
@@ -71,6 +78,7 @@
         </view>
     </objects>
     <resources>
+        <image name="sesacBack" width="24" height="24"/>
         <namedColor name="sesacGray3">
             <color red="0.88627450980392153" green="0.88627450980392153" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
