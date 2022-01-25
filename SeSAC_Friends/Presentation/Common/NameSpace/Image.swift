@@ -5,4 +5,10 @@
 //  Created by 김승찬 on 2022/01/24.
 //
 
-import Foundation
+import UIKit
+
+public enum Image {
+    public static let sesacFriends = UIImage(named: "sesacFriends")!
+    public static let sesacMan = UIImage(named: "sesacMan")!
+    public static let sesacWoman = UIImage(named: "sesacWoman")!
+}

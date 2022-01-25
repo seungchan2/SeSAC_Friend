@@ -12,8 +12,5 @@ final class NicknameViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-    
     }
-
-
 }

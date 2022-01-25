@@ -21,6 +21,7 @@
 		EC4D53CE279E99E3009D5E71 /* EmailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4D53CC279E99E3009D5E71 /* EmailViewController.xib */; };
 		EC4D53D1279E99F4009D5E71 /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53CF279E99F4009D5E71 /* GenderViewController.swift */; };
 		EC4D53D2279E99F4009D5E71 /* GenderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4D53D0279E99F4009D5E71 /* GenderViewController.xib */; };
+		EC4D53D4279F5698009D5E71 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4D53D3279F5698009D5E71 /* Image.xcassets */; };
 		EC6134AA2796610100DCE48C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6134A92796610100DCE48C /* BaseViewController.swift */; };
 		EC6134B42796A11E00DCE48C /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6134B22796A11E00DCE48C /* PhoneViewController.swift */; };
 		EC6134B52796A11E00DCE48C /* PhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6134B32796A11E00DCE48C /* PhoneViewController.xib */; };
@@ -45,6 +46,7 @@
 		EC4D53CC279E99E3009D5E71 /* EmailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailViewController.xib; sourceTree = "<group>"; };
 		EC4D53CF279E99F4009D5E71 /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
 		EC4D53D0279E99F4009D5E71 /* GenderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenderViewController.xib; sourceTree = "<group>"; };
+		EC4D53D3279F5698009D5E71 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		EC6134A92796610100DCE48C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		EC6134B22796A11E00DCE48C /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
 		EC6134B32796A11E00DCE48C /* PhoneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhoneViewController.xib; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 				ECB2F3F127965CAD00BCCA60 /* LaunchScreen.storyboard */,
 				ECB2F3EF27965CAD00BCCA60 /* Assets.xcassets */,
 				EC4D53B3279E8D11009D5E71 /* Color.xcassets */,
+				EC4D53D3279F5698009D5E71 /* Image.xcassets */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 				EC4D53B4279E8D11009D5E71 /* Color.xcassets in Resources */,
 				EC6134BC2796A63000DCE48C /* MessageViewController.xib in Resources */,
 				ECB2F3F027965CAD00BCCA60 /* Assets.xcassets in Resources */,
+				EC4D53D4279F5698009D5E71 /* Image.xcassets in Resources */,
 				EC4D53D2279E99F4009D5E71 /* GenderViewController.xib in Resources */,
 				EC4D53CE279E99E3009D5E71 /* EmailViewController.xib in Resources */,
 			);
@@ -517,7 +521,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RQHZUCMHSH;
+				DEVELOPMENT_TEAM = 2EZ5QWFYX2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeSAC_Friends/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -544,7 +548,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RQHZUCMHSH;
+				DEVELOPMENT_TEAM = 2EZ5QWFYX2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeSAC_Friends/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
