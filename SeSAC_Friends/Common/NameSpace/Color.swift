@@ -8,6 +8,8 @@
 import UIKit
 
 public enum Color {
+    public static let sesacWhite = UIColor(named: "sesacWhite")!
+    public static let sesacBlack = UIColor(named: "sesacBlack")!
     public static let sesacGray7 = UIColor(named: "sesacGray7")!
     public static let sesacGray6 = UIColor(named: "sesacGray6")!
     public static let sesacGray5 = UIColor(named: "sesacGray5")!
