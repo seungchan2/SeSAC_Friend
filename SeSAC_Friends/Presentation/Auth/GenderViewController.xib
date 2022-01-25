@@ -93,12 +93,18 @@
                         <color key="titleColor" name="sesacGray3"/>
                     </state>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AbS-S8-280">
+                    <rect key="frame" x="19" y="57" width="24" height="24"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="sesacBack"/>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="3sb-e8-C5w" firstAttribute="centerX" secondItem="Rhy-yw-IBQ" secondAttribute="centerX" id="0wY-wt-lOA"/>
                 <constraint firstItem="Cmj-Rj-DgC" firstAttribute="bottom" secondItem="EHA-eb-6wg" secondAttribute="bottom" constant="-30" id="1qV-Hn-Mpg"/>
+                <constraint firstItem="AbS-S8-280" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="19" id="3NP-ge-u4E"/>
                 <constraint firstItem="MeW-dn-tgI" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="0.5" id="51c-aj-di9"/>
                 <constraint firstItem="mOQ-YG-cy0" firstAttribute="top" secondItem="Cmj-Rj-DgC" secondAttribute="bottom" id="93J-iw-map"/>
                 <constraint firstItem="i8B-nL-sJH" firstAttribute="top" secondItem="Rhy-yw-IBQ" secondAttribute="top" id="ABG-lI-cRo"/>
@@ -108,6 +114,7 @@
                 <constraint firstItem="Cmj-Rj-DgC" firstAttribute="leading" secondItem="EHA-eb-6wg" secondAttribute="leading" id="ElW-e7-jo9"/>
                 <constraint firstItem="Cmj-Rj-DgC" firstAttribute="trailing" secondItem="EHA-eb-6wg" secondAttribute="trailing" id="GV2-Mb-SE8"/>
                 <constraint firstItem="EHA-eb-6wg" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.43" id="Gvf-Ye-yjA"/>
+                <constraint firstItem="AbS-S8-280" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="13" id="QMr-uO-hrh"/>
                 <constraint firstItem="i8B-nL-sJH" firstAttribute="bottom" secondItem="Rhy-yw-IBQ" secondAttribute="bottom" constant="-30" id="XiT-X6-yOD"/>
                 <constraint firstItem="mOQ-YG-cy0" firstAttribute="centerX" secondItem="EHA-eb-6wg" secondAttribute="centerX" id="Yaf-64-iva"/>
                 <constraint firstItem="Rhy-yw-IBQ" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.43" id="i1E-Xa-b9R"/>
@@ -126,6 +133,7 @@
         </view>
     </objects>
     <resources>
+        <image name="sesacBack" width="24" height="24"/>
         <image name="sesacMan" width="64" height="64"/>
         <image name="sesacWoman" width="64" height="64"/>
         <namedColor name="sesacGray3">

@@ -32,8 +32,8 @@ final class GenderViewController: BaseViewController {
     }
     
     private func setSelectedGenderButton(gender: Int) {
-        genderButton[gender].layer.borderColor = Color.sesacGray3.cgColor
-        genderButton[gender].backgroundColor = UIColor.white
+        genderButton[gender].layer.borderColor = UIColor.white.cgColor
+        genderButton[gender].backgroundColor = Color.sesacWhiteGreen
     }
     
     private func setUnselectedGenderButton(gender: Int) {

@@ -32,6 +32,10 @@
 		ECB2F3E927965CAC00BCCA60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2F3E827965CAC00BCCA60 /* SceneDelegate.swift */; };
 		ECB2F3F027965CAD00BCCA60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB2F3EF27965CAD00BCCA60 /* Assets.xcassets */; };
 		ECB2F3F327965CAD00BCCA60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB2F3F127965CAD00BCCA60 /* LaunchScreen.storyboard */; };
+		ECB6A6E5279F93CB00E55E2C /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A6E4279F93CB00E55E2C /* URL.swift */; };
+		ECB6A6E827A0482B00E55E2C /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A6E727A0482B00E55E2C /* NetworkService.swift */; };
+		ECB6A6EA27A0484200E55E2C /* GenericResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A6E927A0484200E55E2C /* GenericResponse.swift */; };
+		ECB6A6EF27A049D700E55E2C /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = ECB6A6EE27A049D700E55E2C /* Moya */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +62,9 @@
 		ECB2F3EF27965CAD00BCCA60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECB2F3F227965CAD00BCCA60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECB2F3F427965CAD00BCCA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB6A6E4279F93CB00E55E2C /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = URL.swift; path = ../../../../../../Documents/URL.swift; sourceTree = "<group>"; };
+		ECB6A6E727A0482B00E55E2C /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		ECB6A6E927A0484200E55E2C /* GenericResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +75,7 @@
 				EC4D53BF279E8FDE009D5E71 /* SnapKit in Frameworks */,
 				EC6134B82796A32100DCE48C /* EasyKit in Frameworks */,
 				EC4D53BC279E8FCF009D5E71 /* AnyFormatKit in Frameworks */,
+				ECB6A6EF27A049D700E55E2C /* Moya in Frameworks */,
 				EC4D53C2279E8FEA009D5E71 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,6 +88,7 @@
 			children = (
 				EC4D53B6279E8E0C009D5E71 /* Color.swift */,
 				EC4D53B8279E8E16009D5E71 /* Image.swift */,
+				ECB6A6E4279F93CB00E55E2C /* URL.swift */,
 			);
 			path = NameSpace;
 			sourceTree = "<group>";
@@ -246,6 +255,8 @@
 		EC6134B1279661BA00DCE48C /* APIService */ = {
 			isa = PBXGroup;
 			children = (
+				ECB6A6E727A0482B00E55E2C /* NetworkService.swift */,
+				ECB6A6E927A0484200E55E2C /* GenericResponse.swift */,
 			);
 			path = APIService;
 			sourceTree = "<group>";
@@ -301,6 +312,7 @@
 				EC4D53BB279E8FCF009D5E71 /* AnyFormatKit */,
 				EC4D53BE279E8FDE009D5E71 /* SnapKit */,
 				EC4D53C1279E8FEA009D5E71 /* Then */,
+				ECB6A6EE27A049D700E55E2C /* Moya */,
 			);
 			productName = SeSAC_Friends;
 			productReference = ECB2F3E327965CAC00BCCA60 /* SeSAC_Friends.app */;
@@ -335,6 +347,7 @@
 				EC4D53BA279E8FCF009D5E71 /* XCRemoteSwiftPackageReference "AnyFormatKit" */,
 				EC4D53BD279E8FDE009D5E71 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				EC4D53C0279E8FEA009D5E71 /* XCRemoteSwiftPackageReference "Then" */,
+				ECB6A6ED27A049D700E55E2C /* XCRemoteSwiftPackageReference "Moya" */,
 			);
 			productRefGroup = ECB2F3E427965CAC00BCCA60 /* Products */;
 			projectDirPath = "";
@@ -376,11 +389,14 @@
 				EC6134B42796A11E00DCE48C /* PhoneViewController.swift in Sources */,
 				ECB2F3E927965CAC00BCCA60 /* SceneDelegate.swift in Sources */,
 				EC4D53C5279E9741009D5E71 /* NicknameViewController.swift in Sources */,
+				ECB6A6EA27A0484200E55E2C /* GenericResponse.swift in Sources */,
 				EC4D53D1279E99F4009D5E71 /* GenderViewController.swift in Sources */,
 				EC6134AA2796610100DCE48C /* BaseViewController.swift in Sources */,
 				EC6134BB2796A63000DCE48C /* MessageViewController.swift in Sources */,
 				EC4D53B7279E8E0C009D5E71 /* Color.swift in Sources */,
 				EC4D53CD279E99E3009D5E71 /* EmailViewController.swift in Sources */,
+				ECB6A6E827A0482B00E55E2C /* NetworkService.swift in Sources */,
+				ECB6A6E5279F93CB00E55E2C /* URL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,6 +640,14 @@
 				kind = branch;
 			};
 		};
+		ECB6A6ED27A049D700E55E2C /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -646,6 +670,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = EC6134B62796A32100DCE48C /* XCRemoteSwiftPackageReference "EasyKit" */;
 			productName = EasyKit;
+		};
+		ECB6A6EE27A049D700E55E2C /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECB6A6ED27A049D700E55E2C /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
