@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>315770143575-02bl3qoknvkdccj5pbr7iv6kb4ptm55c.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.315770143575-02bl3qoknvkdccj5pbr7iv6kb4ptm55c</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCgR7wypeo4U3odSHAxQQ0Bc_mjeyxYYhI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>315770143575</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>seungchan.SeSAC-Friends</string>
+	<key>PROJECT_ID</key>
+	<string>sesacfriends-df4e1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sesacfriends-df4e1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:315770143575:ios:e5d8dc9ab23102bbff7412</string>
+</dict>
+</plist>
