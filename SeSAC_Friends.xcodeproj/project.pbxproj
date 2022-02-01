@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		EC455E9927A0A99B005E124D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC455E9827A0A99B005E124D /* GoogleService-Info.plist */; };
+		EC455EC927A8E7D0005E124D /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455EC827A8E7D0005E124D /* MyPageViewController.swift */; };
+		EC455ECB27A8E827005E124D /* MyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455ECA27A8E827005E124D /* MyPageView.swift */; };
+		EC455ECD27A8E9D5005E124D /* MyPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455ECC27A8E9D5005E124D /* MyPageTableViewCell.swift */; };
+		EC455ECF27A8EA0D005E124D /* MyPageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455ECE27A8EA0D005E124D /* MyPageHeaderView.swift */; };
 		EC4D53B4279E8D11009D5E71 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4D53B3279E8D11009D5E71 /* Color.xcassets */; };
 		EC4D53B7279E8E0C009D5E71 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53B6279E8E0C009D5E71 /* Color.swift */; };
 		EC4D53B9279E8E16009D5E71 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53B8279E8E16009D5E71 /* Image.swift */; };
@@ -52,6 +56,10 @@
 
 /* Begin PBXFileReference section */
 		EC455E9827A0A99B005E124D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC455EC827A8E7D0005E124D /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		EC455ECA27A8E827005E124D /* MyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageView.swift; sourceTree = "<group>"; };
+		EC455ECC27A8E9D5005E124D /* MyPageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageTableViewCell.swift; sourceTree = "<group>"; };
+		EC455ECE27A8EA0D005E124D /* MyPageHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageHeaderView.swift; sourceTree = "<group>"; };
 		EC4D53B3279E8D11009D5E71 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		EC4D53B6279E8E0C009D5E71 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		EC4D53B8279E8E16009D5E71 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
@@ -108,6 +116,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC455EC727A8E7C2005E124D /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				EC455ED027A8EA12005E124D /* View */,
+				EC455EC827A8E7D0005E124D /* MyPageViewController.swift */,
+				EC455ECC27A8E9D5005E124D /* MyPageTableViewCell.swift */,
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
+		EC455ED027A8EA12005E124D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC455ECA27A8E827005E124D /* MyPageView.swift */,
+				EC455ECE27A8EA0D005E124D /* MyPageHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		EC4D53B5279E8DF3009D5E71 /* NameSpace */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +219,7 @@
 		EC6134A6279660AB00DCE48C /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				EC455EC727A8E7C2005E124D /* MyPage */,
 				ECB6A6F527A0A0DB00E55E2C /* Home */,
 				ECB6A6FA27A0A0ED00E55E2C /* Shop */,
 				ECB6A6FF27A0A10300E55E2C /* SeSacFriend */,
@@ -469,10 +497,12 @@
 			files = (
 				EC4D53B9279E8E16009D5E71 /* Image.swift in Sources */,
 				ECB2F3E727965CAC00BCCA60 /* AppDelegate.swift in Sources */,
+				EC455ECF27A8EA0D005E124D /* MyPageHeaderView.swift in Sources */,
 				EC4D53C9279E99CF009D5E71 /* BirthViewController.swift in Sources */,
 				ECB6A6F427A09E5700E55E2C /* TabBarController.swift in Sources */,
 				EC6134B42796A11E00DCE48C /* PhoneViewController.swift in Sources */,
 				ECB6A6F227A09E4E00E55E2C /* TabBarItem.swift in Sources */,
+				EC455ECD27A8E9D5005E124D /* MyPageTableViewCell.swift in Sources */,
 				ECB2F3E927965CAC00BCCA60 /* SceneDelegate.swift in Sources */,
 				EC4D53C5279E9741009D5E71 /* NicknameViewController.swift in Sources */,
 				ECB6A6EA27A0484200E55E2C /* GenericResponse.swift in Sources */,
@@ -481,7 +511,9 @@
 				EC6134AA2796610100DCE48C /* BaseViewController.swift in Sources */,
 				ECB6A6F827A0A0EA00E55E2C /* HomeViewController.swift in Sources */,
 				EC6134BB2796A63000DCE48C /* MessageViewController.swift in Sources */,
+				EC455ECB27A8E827005E124D /* MyPageView.swift in Sources */,
 				ECB6A70227A0A11700E55E2C /* SeSacFriendViewController.swift in Sources */,
+				EC455EC927A8E7D0005E124D /* MyPageViewController.swift in Sources */,
 				EC4D53B7279E8E0C009D5E71 /* Color.swift in Sources */,
 				EC4D53CD279E99E3009D5E71 /* EmailViewController.swift in Sources */,
 				ECB6A6E827A0482B00E55E2C /* NetworkService.swift in Sources */,
