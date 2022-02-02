@@ -22,5 +22,6 @@ public enum Image {
     public static let sesacFaq = UIImage(named: "sesacFaq")!
     public static let sesacQnA = UIImage(named: "sesacQnA")!
     public static let sesacPermit = UIImage(named: "sesacPermit")!
-    public static let sesacRing = UIImage(named: "sesacRing")!   
+    public static let sesacRing = UIImage(named: "sesacRing")!
+    public static let sesacCard = UIImage(named: "sesacCard")!
 }

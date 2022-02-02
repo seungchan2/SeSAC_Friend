@@ -11,12 +11,10 @@ final class HomeViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-       
+        
     }
 
     override func style() {
         view.backgroundColor = .brown
     }
-
 }

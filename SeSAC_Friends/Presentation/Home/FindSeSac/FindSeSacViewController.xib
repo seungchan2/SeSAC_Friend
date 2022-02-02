@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FindSeSacViewController" customModule="SeSAC_Friends" customModuleProvider="target">
+            <connections>
+                <outlet property="pagerTab" destination="02m-Vv-0B5" id="rZU-Xb-oLn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lkh-7Z-QBX">
+                    <rect key="frame" x="16" y="53" width="24" height="24"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="sesacBack"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYu-wo-M58">
+                    <rect key="frame" x="346" y="50" width="52" height="30"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="찾기중단">
+                        <color key="titleColor" name="sesacBlack"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="새싹 찾기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ClA-No-LTq">
+                    <rect key="frame" x="175.5" y="54.5" width="63.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RC2-dI-pUo">
+                    <rect key="frame" x="0.0" y="86.5" width="414" height="1"/>
+                    <color key="backgroundColor" systemColor="systemGray4Color"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="U3W-T0-YxR"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="02m-Vv-0B5" customClass="PagerTab" customModule="SeSAC_Friends" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="87.5" width="414" height="808.5"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="lkh-7Z-QBX" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="9" id="0pF-Ei-cg7"/>
+                <constraint firstItem="ClA-No-LTq" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Flq-fE-Bmo"/>
+                <constraint firstItem="lkh-7Z-QBX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Fqu-Wc-8xb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="02m-Vv-0B5" secondAttribute="trailing" id="GmS-fT-04q"/>
+                <constraint firstItem="02m-Vv-0B5" firstAttribute="top" secondItem="RC2-dI-pUo" secondAttribute="bottom" id="NdJ-YW-nDG"/>
+                <constraint firstItem="ClA-No-LTq" firstAttribute="centerY" secondItem="lkh-7Z-QBX" secondAttribute="centerY" id="Yl5-Xh-UHf"/>
+                <constraint firstItem="RC2-dI-pUo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="bqz-72-YeH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="RC2-dI-pUo" secondAttribute="trailing" id="deU-rU-szZ"/>
+                <constraint firstItem="02m-Vv-0B5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="e4o-5V-ybJ"/>
+                <constraint firstItem="RC2-dI-pUo" firstAttribute="top" secondItem="ClA-No-LTq" secondAttribute="bottom" constant="11" id="kEF-Yx-llf"/>
+                <constraint firstAttribute="bottom" secondItem="02m-Vv-0B5" secondAttribute="bottom" id="oq7-4O-fdX"/>
+                <constraint firstItem="zYu-wo-M58" firstAttribute="centerY" secondItem="lkh-7Z-QBX" secondAttribute="centerY" id="s7L-Cs-EGq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="zYu-wo-M58" secondAttribute="trailing" constant="16" id="xjc-Q0-BLR"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="79.6875"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sesacBack" width="24" height="24"/>
+        <namedColor name="sesacBlack">
+            <color red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

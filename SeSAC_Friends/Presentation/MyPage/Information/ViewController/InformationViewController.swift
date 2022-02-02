@@ -1,5 +1,5 @@
 //
-//  MyPageViewController.swift
+//  InformationViewController.swift
 //  SeSAC_Friends
 //
 //  Created by 김승찬 on 2022/02/01.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class MyPageViewController: BaseViewController {
+final class InformationViewController: BaseViewController {
     
     private let listForMyPage = [
         (image: Image.sesacNotice, text: "공지사항"),
@@ -17,7 +17,7 @@ final class MyPageViewController: BaseViewController {
         (image: Image.sesacPermit, text: "이용 약관")
     ]
     
-    let myPageView = MyPageView()
+    let myPageView = informationView()
     
     override func loadView() {
         self.view = myPageView
@@ -26,13 +26,13 @@ final class MyPageViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         assignDelegation()
-        myPageView.myPageTableView.register(UITableViewHeaderFooterView.self, forHeaderFooterViewReuseIdentifier: "MyPageHeaderView")
+        myPageView.informationTableView.register(UITableViewHeaderFooterView.self, forHeaderFooterViewReuseIdentifier: "MyPageHeaderView")
         
     }
     
     private func assignDelegation() {
-        myPageView.myPageTableView.delegate = self
-        myPageView.myPageTableView.dataSource = self
+        myPageView.informationTableView.delegate = self
+        myPageView.informationTableView.dataSource = self
     }
     
     
@@ -42,11 +42,11 @@ final class MyPageViewController: BaseViewController {
     
 }
 
-extension MyPageViewController: UITableViewDelegate {
+extension InformationViewController: UITableViewDelegate {
     
 }
 
-extension MyPageViewController: UITableViewDataSource {
+extension InformationViewController: UITableViewDataSource {
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -54,7 +54,7 @@ extension MyPageViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = myPageView.myPageTableView.dequeueReusableCell(for: indexPath, cellType: MyPageTableViewCell.self)
+        let cell = myPageView.informationTableView.dequeueReusableCell(for: indexPath, cellType: informationTableViewCell.self)
         cell.selectionStyle = .none
         cell.separatorInset.right = 15
         cell.profileImage.image = listForMyPage[indexPath.row].image
@@ -63,14 +63,14 @@ extension MyPageViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let header = myPageView.myPageTableView.dequeueReusableHeaderFooterView(withIdentifier: "MyPageHeaderView")
+        let header = myPageView.informationTableView.dequeueReusableHeaderFooterView(withIdentifier: "informationHeaderView")
         return header
     }
     
     func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         guard let header = view as? UITableViewHeaderFooterView else { return }
         
-        let view = MyPageHeaderView().then {
+        let view = informationHeaderView().then {
             $0.backgroundColor = .white
         }
         

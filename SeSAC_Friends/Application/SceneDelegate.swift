@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
         
-        let rootViewController = MyPageViewController.instanceFromNib()
+        let rootViewController = FindSeSacViewController.instanceFromNib()
         window?.rootViewController = rootViewController
         window?.makeKeyAndVisible()
     }
