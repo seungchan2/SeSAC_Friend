@@ -1,5 +1,5 @@
 //
-//  MyPageTableViewCell.swift
+//  informationTableViewCell.swift
 //  SeSAC_Friends
 //
 //  Created by 김승찬 on 2022/02/01.
@@ -10,7 +10,7 @@ import UIKit
 import SnapKit
 import Then
 
-final class MyPageTableViewCell: UITableViewCell {
+final class informationTableViewCell: UITableViewCell {
 
     let profileImage = UIImageView()
     let infoLabel = UILabel()

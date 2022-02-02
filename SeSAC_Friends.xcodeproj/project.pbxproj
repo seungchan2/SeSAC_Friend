@@ -8,10 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		EC455E9927A0A99B005E124D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC455E9827A0A99B005E124D /* GoogleService-Info.plist */; };
-		EC455EC927A8E7D0005E124D /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455EC827A8E7D0005E124D /* MyPageViewController.swift */; };
-		EC455ECB27A8E827005E124D /* MyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455ECA27A8E827005E124D /* MyPageView.swift */; };
-		EC455ECD27A8E9D5005E124D /* MyPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455ECC27A8E9D5005E124D /* MyPageTableViewCell.swift */; };
-		EC455ECF27A8EA0D005E124D /* MyPageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455ECE27A8EA0D005E124D /* MyPageHeaderView.swift */; };
+		EC455EC927A8E7D0005E124D /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455EC827A8E7D0005E124D /* InformationViewController.swift */; };
+		EC455ECB27A8E827005E124D /* informationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455ECA27A8E827005E124D /* informationView.swift */; };
+		EC455ECD27A8E9D5005E124D /* informationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455ECC27A8E9D5005E124D /* informationTableViewCell.swift */; };
+		EC455ECF27A8EA0D005E124D /* informationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455ECE27A8EA0D005E124D /* informationHeaderView.swift */; };
+		EC455EE927A91B5B005E124D /* PagerTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455EE827A91B5B005E124D /* PagerTab.swift */; };
+		EC455EEB27A91C51005E124D /* NearSeSacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455EEA27A91C51005E124D /* NearSeSacViewController.swift */; };
+		EC455EED27A91C5F005E124D /* GetRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455EEC27A91C5F005E124D /* GetRequestViewController.swift */; };
+		EC455EF027A91C86005E124D /* FindSeSacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455EEE27A91C86005E124D /* FindSeSacViewController.swift */; };
+		EC455EF127A91C86005E124D /* FindSeSacViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC455EEF27A91C86005E124D /* FindSeSacViewController.xib */; };
 		EC4D53B4279E8D11009D5E71 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4D53B3279E8D11009D5E71 /* Color.xcassets */; };
 		EC4D53B7279E8E0C009D5E71 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53B6279E8E0C009D5E71 /* Color.swift */; };
 		EC4D53B9279E8E16009D5E71 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53B8279E8E16009D5E71 /* Image.swift */; };
@@ -46,8 +51,6 @@
 		ECB6A6F927A0A0EA00E55E2C /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB6A6F727A0A0EA00E55E2C /* HomeViewController.xib */; };
 		ECB6A70227A0A11700E55E2C /* SeSacFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A70027A0A11700E55E2C /* SeSacFriendViewController.swift */; };
 		ECB6A70327A0A11700E55E2C /* SeSacFriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB6A70127A0A11700E55E2C /* SeSacFriendViewController.xib */; };
-		ECB6A70727A0A12A00E55E2C /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A70527A0A12A00E55E2C /* InfoViewController.swift */; };
-		ECB6A70827A0A12A00E55E2C /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB6A70627A0A12A00E55E2C /* InfoViewController.xib */; };
 		ECB6A70B27A0A1E600E55E2C /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A70927A0A1E600E55E2C /* ShopViewController.swift */; };
 		ECB6A70C27A0A1E600E55E2C /* ShopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB6A70A27A0A1E600E55E2C /* ShopViewController.xib */; };
 		ECB6A71327A0A78400E55E2C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = ECB6A71227A0A78400E55E2C /* FirebaseAuth */; };
@@ -56,10 +59,15 @@
 
 /* Begin PBXFileReference section */
 		EC455E9827A0A99B005E124D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		EC455EC827A8E7D0005E124D /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
-		EC455ECA27A8E827005E124D /* MyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageView.swift; sourceTree = "<group>"; };
-		EC455ECC27A8E9D5005E124D /* MyPageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageTableViewCell.swift; sourceTree = "<group>"; };
-		EC455ECE27A8EA0D005E124D /* MyPageHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageHeaderView.swift; sourceTree = "<group>"; };
+		EC455EC827A8E7D0005E124D /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		EC455ECA27A8E827005E124D /* informationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informationView.swift; sourceTree = "<group>"; };
+		EC455ECC27A8E9D5005E124D /* informationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informationTableViewCell.swift; sourceTree = "<group>"; };
+		EC455ECE27A8EA0D005E124D /* informationHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informationHeaderView.swift; sourceTree = "<group>"; };
+		EC455EE827A91B5B005E124D /* PagerTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerTab.swift; sourceTree = "<group>"; };
+		EC455EEA27A91C51005E124D /* NearSeSacViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearSeSacViewController.swift; sourceTree = "<group>"; };
+		EC455EEC27A91C5F005E124D /* GetRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRequestViewController.swift; sourceTree = "<group>"; };
+		EC455EEE27A91C86005E124D /* FindSeSacViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindSeSacViewController.swift; sourceTree = "<group>"; };
+		EC455EEF27A91C86005E124D /* FindSeSacViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FindSeSacViewController.xib; sourceTree = "<group>"; };
 		EC4D53B3279E8D11009D5E71 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		EC4D53B6279E8E0C009D5E71 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		EC4D53B8279E8E16009D5E71 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
@@ -91,8 +99,6 @@
 		ECB6A6F727A0A0EA00E55E2C /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		ECB6A70027A0A11700E55E2C /* SeSacFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSacFriendViewController.swift; sourceTree = "<group>"; };
 		ECB6A70127A0A11700E55E2C /* SeSacFriendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeSacFriendViewController.xib; sourceTree = "<group>"; };
-		ECB6A70527A0A12A00E55E2C /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
-		ECB6A70627A0A12A00E55E2C /* InfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
 		ECB6A70927A0A1E600E55E2C /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
 		ECB6A70A27A0A1E600E55E2C /* ShopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopViewController.xib; sourceTree = "<group>"; };
 		ECB6A70D27A0A3C200E55E2C /* SeSAC_Friends.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SeSAC_Friends.entitlements; sourceTree = "<group>"; };
@@ -119,9 +125,8 @@
 		EC455EC727A8E7C2005E124D /* MyPage */ = {
 			isa = PBXGroup;
 			children = (
-				EC455ED027A8EA12005E124D /* View */,
-				EC455EC827A8E7D0005E124D /* MyPageViewController.swift */,
-				EC455ECC27A8E9D5005E124D /* MyPageTableViewCell.swift */,
+				EC455ED427A90610005E124D /* Management */,
+				EC455ED327A905E6005E124D /* Information */,
 			);
 			path = MyPage;
 			sourceTree = "<group>";
@@ -129,10 +134,78 @@
 		EC455ED027A8EA12005E124D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				EC455ECA27A8E827005E124D /* MyPageView.swift */,
-				EC455ECE27A8EA0D005E124D /* MyPageHeaderView.swift */,
+				EC455ECA27A8E827005E124D /* informationView.swift */,
+				EC455ECE27A8EA0D005E124D /* informationHeaderView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		EC455ED127A8FEF6005E124D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC455EC827A8E7D0005E124D /* InformationViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EC455ED227A8FF0A005E124D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EC455ECC27A8E9D5005E124D /* informationTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EC455ED327A905E6005E124D /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				EC455ED027A8EA12005E124D /* View */,
+				EC455ED127A8FEF6005E124D /* ViewController */,
+				EC455ED227A8FF0A005E124D /* Cell */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		EC455ED427A90610005E124D /* Management */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Management;
+			sourceTree = "<group>";
+		};
+		EC455EE727A91B4B005E124D /* PagerTab */ = {
+			isa = PBXGroup;
+			children = (
+				EC455EE827A91B5B005E124D /* PagerTab.swift */,
+			);
+			path = PagerTab;
+			sourceTree = "<group>";
+		};
+		EC455EF227AA4EFD005E124D /* FindSeSac */ = {
+			isa = PBXGroup;
+			children = (
+				EC455EEE27A91C86005E124D /* FindSeSacViewController.swift */,
+				EC455EEF27A91C86005E124D /* FindSeSacViewController.xib */,
+				EC455EF327AA4F06005E124D /* FirstTab */,
+				EC455EF427AA4F0C005E124D /* SecondTab */,
+			);
+			path = FindSeSac;
+			sourceTree = "<group>";
+		};
+		EC455EF327AA4F06005E124D /* FirstTab */ = {
+			isa = PBXGroup;
+			children = (
+				EC455EEA27A91C51005E124D /* NearSeSacViewController.swift */,
+			);
+			path = FirstTab;
+			sourceTree = "<group>";
+		};
+		EC455EF427AA4F0C005E124D /* SecondTab */ = {
+			isa = PBXGroup;
+			children = (
+				EC455EEC27A91C5F005E124D /* GetRequestViewController.swift */,
+			);
+			path = SecondTab;
 			sourceTree = "<group>";
 		};
 		EC4D53B5279E8DF3009D5E71 /* NameSpace */ = {
@@ -223,7 +296,6 @@
 				ECB6A6F527A0A0DB00E55E2C /* Home */,
 				ECB6A6FA27A0A0ED00E55E2C /* Shop */,
 				ECB6A6FF27A0A10300E55E2C /* SeSacFriend */,
-				ECB6A70427A0A11900E55E2C /* Information */,
 				EC6134A7279660BD00DCE48C /* Common */,
 				EC6134AB2796611D00DCE48C /* Auth */,
 			);
@@ -233,6 +305,7 @@
 		EC6134A7279660BD00DCE48C /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				EC455EE727A91B4B005E124D /* PagerTab */,
 				ECB6A6F027A09E2C00E55E2C /* Tabbar */,
 				EC6134A8279660F500DCE48C /* Base */,
 			);
@@ -362,6 +435,7 @@
 		ECB6A6F527A0A0DB00E55E2C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				EC455EF227AA4EFD005E124D /* FindSeSac */,
 				ECB6A6F627A0A0EA00E55E2C /* HomeViewController.swift */,
 				ECB6A6F727A0A0EA00E55E2C /* HomeViewController.xib */,
 			);
@@ -384,15 +458,6 @@
 				ECB6A70127A0A11700E55E2C /* SeSacFriendViewController.xib */,
 			);
 			path = SeSacFriend;
-			sourceTree = "<group>";
-		};
-		ECB6A70427A0A11900E55E2C /* Information */ = {
-			isa = PBXGroup;
-			children = (
-				ECB6A70527A0A12A00E55E2C /* InfoViewController.swift */,
-				ECB6A70627A0A12A00E55E2C /* InfoViewController.xib */,
-			);
-			path = Information;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -475,6 +540,7 @@
 				EC4D53CA279E99CF009D5E71 /* BirthViewController.xib in Resources */,
 				EC6134B52796A11E00DCE48C /* PhoneViewController.xib in Resources */,
 				ECB6A70C27A0A1E600E55E2C /* ShopViewController.xib in Resources */,
+				EC455EF127A91C86005E124D /* FindSeSacViewController.xib in Resources */,
 				EC4D53B4279E8D11009D5E71 /* Color.xcassets in Resources */,
 				EC6134BC2796A63000DCE48C /* MessageViewController.xib in Resources */,
 				ECB2F3F027965CAD00BCCA60 /* Assets.xcassets in Resources */,
@@ -483,7 +549,6 @@
 				EC455E9927A0A99B005E124D /* GoogleService-Info.plist in Resources */,
 				EC4D53CE279E99E3009D5E71 /* EmailViewController.xib in Resources */,
 				ECB6A70327A0A11700E55E2C /* SeSacFriendViewController.xib in Resources */,
-				ECB6A70827A0A12A00E55E2C /* InfoViewController.xib in Resources */,
 				ECB6A6F927A0A0EA00E55E2C /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,27 +562,30 @@
 			files = (
 				EC4D53B9279E8E16009D5E71 /* Image.swift in Sources */,
 				ECB2F3E727965CAC00BCCA60 /* AppDelegate.swift in Sources */,
-				EC455ECF27A8EA0D005E124D /* MyPageHeaderView.swift in Sources */,
+				EC455ECF27A8EA0D005E124D /* informationHeaderView.swift in Sources */,
+				EC455EED27A91C5F005E124D /* GetRequestViewController.swift in Sources */,
 				EC4D53C9279E99CF009D5E71 /* BirthViewController.swift in Sources */,
+				EC455EF027A91C86005E124D /* FindSeSacViewController.swift in Sources */,
 				ECB6A6F427A09E5700E55E2C /* TabBarController.swift in Sources */,
 				EC6134B42796A11E00DCE48C /* PhoneViewController.swift in Sources */,
 				ECB6A6F227A09E4E00E55E2C /* TabBarItem.swift in Sources */,
-				EC455ECD27A8E9D5005E124D /* MyPageTableViewCell.swift in Sources */,
+				EC455ECD27A8E9D5005E124D /* informationTableViewCell.swift in Sources */,
 				ECB2F3E927965CAC00BCCA60 /* SceneDelegate.swift in Sources */,
 				EC4D53C5279E9741009D5E71 /* NicknameViewController.swift in Sources */,
+				EC455EE927A91B5B005E124D /* PagerTab.swift in Sources */,
 				ECB6A6EA27A0484200E55E2C /* GenericResponse.swift in Sources */,
+				EC455EEB27A91C51005E124D /* NearSeSacViewController.swift in Sources */,
 				EC4D53D1279E99F4009D5E71 /* GenderViewController.swift in Sources */,
 				ECB6A70B27A0A1E600E55E2C /* ShopViewController.swift in Sources */,
 				EC6134AA2796610100DCE48C /* BaseViewController.swift in Sources */,
 				ECB6A6F827A0A0EA00E55E2C /* HomeViewController.swift in Sources */,
 				EC6134BB2796A63000DCE48C /* MessageViewController.swift in Sources */,
-				EC455ECB27A8E827005E124D /* MyPageView.swift in Sources */,
+				EC455ECB27A8E827005E124D /* informationView.swift in Sources */,
 				ECB6A70227A0A11700E55E2C /* SeSacFriendViewController.swift in Sources */,
-				EC455EC927A8E7D0005E124D /* MyPageViewController.swift in Sources */,
+				EC455EC927A8E7D0005E124D /* InformationViewController.swift in Sources */,
 				EC4D53B7279E8E0C009D5E71 /* Color.swift in Sources */,
 				EC4D53CD279E99E3009D5E71 /* EmailViewController.swift in Sources */,
 				ECB6A6E827A0482B00E55E2C /* NetworkService.swift in Sources */,
-				ECB6A70727A0A12A00E55E2C /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

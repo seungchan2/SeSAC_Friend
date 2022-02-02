@@ -26,8 +26,8 @@ final class TabBarController: UITabBarController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
-        tabBar.frame.size.height = 70
-        tabBar.frame.origin.y = view.frame.height - 70
+        tabBar.frame.size.height = 90
+        tabBar.frame.origin.y = view.frame.height - 90
     }
 
     override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
@@ -56,7 +56,7 @@ extension TabBarController {
             UINavigationController(rootViewController: HomeViewController.instanceFromNib()),
             UINavigationController(rootViewController: ShopViewController.instanceFromNib()),
             UINavigationController(rootViewController: SeSacFriendViewController.instanceFromNib()),
-            UINavigationController(rootViewController: InfoViewController.instanceFromNib())
+            UINavigationController(rootViewController: InformationViewController.instanceFromNib())
         ]
 
         TabBarItem.allCases.forEach {

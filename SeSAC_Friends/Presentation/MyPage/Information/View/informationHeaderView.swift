@@ -11,7 +11,7 @@ import SnapKit
 import Then
 import EasyKit
 
-final class MyPageHeaderView: UIView {
+final class informationHeaderView: UIView {
     
     let profileImage = UIImageView().then {
         $0.image = Image.sesacProfile
