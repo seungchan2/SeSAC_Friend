@@ -33,6 +33,7 @@
 		EC455F2027ABB5CA005E124D /* SeSacBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455F1F27ABB5CA005E124D /* SeSacBackgroundView.swift */; };
 		EC455F2227ABB5E7005E124D /* SeSacCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455F2127ABB5E7005E124D /* SeSacCharacterView.swift */; };
 		EC455F2427ABB700005E124D /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455F2327ABB700005E124D /* CharacterCollectionViewCell.swift */; };
+		EC455F3127ABC8D7005E124D /* BackgroundCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455F3027ABC8D7005E124D /* BackgroundCollectionViewCell.swift */; };
 		EC4D53B4279E8D11009D5E71 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4D53B3279E8D11009D5E71 /* Color.xcassets */; };
 		EC4D53B7279E8E0C009D5E71 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53B6279E8E0C009D5E71 /* Color.swift */; };
 		EC4D53B9279E8E16009D5E71 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53B8279E8E16009D5E71 /* Image.swift */; };
@@ -68,7 +69,6 @@
 		ECB6A70227A0A11700E55E2C /* SeSacFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A70027A0A11700E55E2C /* SeSacFriendViewController.swift */; };
 		ECB6A70327A0A11700E55E2C /* SeSacFriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB6A70127A0A11700E55E2C /* SeSacFriendViewController.xib */; };
 		ECB6A70B27A0A1E600E55E2C /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A70927A0A1E600E55E2C /* ShopViewController.swift */; };
-		ECB6A70C27A0A1E600E55E2C /* ShopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB6A70A27A0A1E600E55E2C /* ShopViewController.xib */; };
 		ECB6A71327A0A78400E55E2C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = ECB6A71227A0A78400E55E2C /* FirebaseAuth */; };
 		ECB6A71527A0A78400E55E2C /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = ECB6A71427A0A78400E55E2C /* FirebaseMessaging */; };
 /* End PBXBuildFile section */
@@ -100,6 +100,7 @@
 		EC455F1F27ABB5CA005E124D /* SeSacBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSacBackgroundView.swift; sourceTree = "<group>"; };
 		EC455F2127ABB5E7005E124D /* SeSacCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSacCharacterView.swift; sourceTree = "<group>"; };
 		EC455F2327ABB700005E124D /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC455F3027ABC8D7005E124D /* BackgroundCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundCollectionViewCell.swift; sourceTree = "<group>"; };
 		EC4D53B3279E8D11009D5E71 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		EC4D53B6279E8E0C009D5E71 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		EC4D53B8279E8E16009D5E71 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
@@ -132,7 +133,6 @@
 		ECB6A70027A0A11700E55E2C /* SeSacFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSacFriendViewController.swift; sourceTree = "<group>"; };
 		ECB6A70127A0A11700E55E2C /* SeSacFriendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeSacFriendViewController.xib; sourceTree = "<group>"; };
 		ECB6A70927A0A1E600E55E2C /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
-		ECB6A70A27A0A1E600E55E2C /* ShopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopViewController.xib; sourceTree = "<group>"; };
 		ECB6A70D27A0A3C200E55E2C /* SeSAC_Friends.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SeSAC_Friends.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -264,12 +264,97 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
-		EC455F1627ABAAE9005E124D /* View */ = {
+		EC455F1627ABAAE9005E124D /* ShopTab */ = {
+			isa = PBXGroup;
+			children = (
+				EC455F2A27ABC6B3005E124D /* ViewController */,
+				EC455F2927ABC6AD005E124D /* View */,
+			);
+			path = ShopTab;
+			sourceTree = "<group>";
+		};
+		EC455F2527ABC647005E124D /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				EC455F2827ABC65B005E124D /* Cell */,
+				EC455F2727ABC651005E124D /* ViewController */,
+				EC455F2627ABC64D005E124D /* View */,
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
+		EC455F2627ABC64D005E124D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC455F2127ABB5E7005E124D /* SeSacCharacterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC455F2727ABC651005E124D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC455F1927ABB23C005E124D /* SeSacCharacterViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EC455F2827ABC65B005E124D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EC455F2327ABB700005E124D /* CharacterCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EC455F2927ABC6AD005E124D /* View */ = {
 			isa = PBXGroup;
 			children = (
 				EC455F1727ABAB00005E124D /* ShopView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		EC455F2A27ABC6B3005E124D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ECB6A70927A0A1E600E55E2C /* ShopViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EC455F2C27ABC6EA005E124D /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				EC455F2F27ABC6FD005E124D /* Cell */,
+				EC455F2E27ABC6F7005E124D /* ViewController */,
+				EC455F2D27ABC6F2005E124D /* View */,
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
+		EC455F2D27ABC6F2005E124D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC455F1F27ABB5CA005E124D /* SeSacBackgroundView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC455F2E27ABC6F7005E124D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC455F1B27ABB24E005E124D /* SeSacBackgroundViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EC455F2F27ABC6FD005E124D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EC455F3027ABC8D7005E124D /* BackgroundCollectionViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		EC4D53B5279E8DF3009D5E71 /* NameSpace */ = {
@@ -511,14 +596,9 @@
 		ECB6A6FA27A0A0ED00E55E2C /* Shop */ = {
 			isa = PBXGroup;
 			children = (
-				EC455F1627ABAAE9005E124D /* View */,
-				ECB6A70927A0A1E600E55E2C /* ShopViewController.swift */,
-				ECB6A70A27A0A1E600E55E2C /* ShopViewController.xib */,
-				EC455F1927ABB23C005E124D /* SeSacCharacterViewController.swift */,
-				EC455F1B27ABB24E005E124D /* SeSacBackgroundViewController.swift */,
-				EC455F1F27ABB5CA005E124D /* SeSacBackgroundView.swift */,
-				EC455F2127ABB5E7005E124D /* SeSacCharacterView.swift */,
-				EC455F2327ABB700005E124D /* CharacterCollectionViewCell.swift */,
+				EC455F1627ABAAE9005E124D /* ShopTab */,
+				EC455F2527ABC647005E124D /* Character */,
+				EC455F2C27ABC6EA005E124D /* Background */,
 			);
 			path = Shop;
 			sourceTree = "<group>";
@@ -611,7 +691,6 @@
 				ECB2F3F327965CAD00BCCA60 /* LaunchScreen.storyboard in Resources */,
 				EC4D53CA279E99CF009D5E71 /* BirthViewController.xib in Resources */,
 				EC6134B52796A11E00DCE48C /* PhoneViewController.xib in Resources */,
-				ECB6A70C27A0A1E600E55E2C /* ShopViewController.xib in Resources */,
 				EC455EF127A91C86005E124D /* FindSeSacViewController.xib in Resources */,
 				EC4D53B4279E8D11009D5E71 /* Color.xcassets in Resources */,
 				EC6134BC2796A63000DCE48C /* MessageViewController.xib in Resources */,
@@ -671,6 +750,7 @@
 				EC455EC927A8E7D0005E124D /* InformationViewController.swift in Sources */,
 				EC455F2027ABB5CA005E124D /* SeSacBackgroundView.swift in Sources */,
 				EC4D53B7279E8E0C009D5E71 /* Color.swift in Sources */,
+				EC455F3127ABC8D7005E124D /* BackgroundCollectionViewCell.swift in Sources */,
 				EC4D53CD279E99E3009D5E71 /* EmailViewController.swift in Sources */,
 				ECB6A6E827A0482B00E55E2C /* NetworkService.swift in Sources */,
 				EC455EF827AA536A005E124D /* ManagementView.swift in Sources */,

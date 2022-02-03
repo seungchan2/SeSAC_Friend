@@ -1,5 +1,5 @@
 //
-//  SeSacCharacterView.swift
+//  SeSacBackgroundView.swift
 //  SeSAC_Friends
 //
 //  Created by 김승찬 on 2022/02/03.
@@ -10,12 +10,11 @@ import UIKit
 import SnapKit
 import Then
 
-final class SeSacCharacterView: UIView {
-    
+final class SeSacBackgroundView: UIView {
     let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout()).then {
-        $0.register(CharacterCollectionViewCell.self)
+        $0.register(BackgroundCollectionViewCell.self)
         let layout = UICollectionViewFlowLayout()
-        layout.itemSize = CGSize(width: UIScreen.main.bounds.width / 2 - 30 , height: UIScreen.main.bounds.width / 2 + 60)
+        layout.itemSize = CGSize(width: UIScreen.main.bounds.width - 30 , height: UIScreen.main.bounds.width / 2 - 15)
         layout.scrollDirection = .vertical
         $0.backgroundColor = .white
         $0.showsVerticalScrollIndicator = false
@@ -44,4 +43,3 @@ final class SeSacCharacterView: UIView {
         }
     }
 }
-

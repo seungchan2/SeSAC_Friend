@@ -22,9 +22,6 @@ class CharacterCollectionViewCell: UICollectionViewCell {
     
     let priceButton = UIButton().then {
         $0.makeRounded(radius: 8)
-        $0.backgroundColor = Color.sesacGray4
-        $0.setTitle("보유", for: .normal)
-        $0.setTitleColor(Color.sesacGray2, for: .normal)
         $0.titleLabel?.font = .systemFont(ofSize: 12)
     }
     
@@ -74,5 +71,4 @@ class CharacterCollectionViewCell: UICollectionViewCell {
             $0.leading.trailing.equalToSuperview()
         }
     }
-    
 }

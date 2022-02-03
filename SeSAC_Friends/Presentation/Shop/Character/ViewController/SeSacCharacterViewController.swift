@@ -17,7 +17,6 @@ final class SeSacCharacterViewController: BaseViewController {
         (image: Image.sesacGoldFace,  name: "골드 새싹",price: "2,500", backgroundColor: Color.sesacGreen, buttonTextColor: Color.sesacWhite, explain: "화려하고 멋있는 삶을 살며 돈과 인생을 플렉스 하는 자유분방한 새싹입니다.")
     ]
 
-
     let sesacCharacterView = SeSacCharacterView()
     
     override func loadView() {
@@ -27,7 +26,6 @@ final class SeSacCharacterViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         assignDelegation()
-
     }
     
     private func assignDelegation() {
@@ -39,7 +37,6 @@ final class SeSacCharacterViewController: BaseViewController {
         super.style()
         view.backgroundColor = Color.sesacWhite
     }
-
 }
 
 extension SeSacCharacterViewController: PageComponentProtocol {
