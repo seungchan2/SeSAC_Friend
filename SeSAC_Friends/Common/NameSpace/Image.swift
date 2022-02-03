@@ -26,4 +26,11 @@ public enum Image {
     public static let sesacCard = UIImage(named: "sesacCard")!
     public static let sesacDownArrow = UIImage(named: "sesacDownArrow")!
     public static let sesacUpArrow = UIImage(named: "sesacUpArrow")!
+    public static let sesacBackground = UIImage(named: "sesacBackground")!
+    public static let sesacFace = UIImage(named: "sesacFace")!
+    public static let sesacMintFace = UIImage(named: "sesacMintFace")!
+    public static let sesacGoldFace = UIImage(named: "sesacGoldFace")!
+    public static let sesacPurpleFace = UIImage(named: "sesacPurpleFace")!
+    public static let sesacStrongFace = UIImage(named: "sesacStrongFace")!
+    public static let sesacNormalFace = UIImage(named: "sesacNormalFace")!
 }

@@ -27,6 +27,12 @@
 		EC455F0C27AA5B39005E124D /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455F0B27AA5B39005E124D /* UserView.swift */; };
 		EC455F0F27AA60EB005E124D /* SeSacTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455F0E27AA60EB005E124D /* SeSacTitleView.swift */; };
 		EC455F1127AA611F005E124D /* SeSacReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455F1027AA611F005E124D /* SeSacReviewView.swift */; };
+		EC455F1827ABAB00005E124D /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455F1727ABAB00005E124D /* ShopView.swift */; };
+		EC455F1A27ABB23C005E124D /* SeSacCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455F1927ABB23C005E124D /* SeSacCharacterViewController.swift */; };
+		EC455F1C27ABB24E005E124D /* SeSacBackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455F1B27ABB24E005E124D /* SeSacBackgroundViewController.swift */; };
+		EC455F2027ABB5CA005E124D /* SeSacBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455F1F27ABB5CA005E124D /* SeSacBackgroundView.swift */; };
+		EC455F2227ABB5E7005E124D /* SeSacCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455F2127ABB5E7005E124D /* SeSacCharacterView.swift */; };
+		EC455F2427ABB700005E124D /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455F2327ABB700005E124D /* CharacterCollectionViewCell.swift */; };
 		EC4D53B4279E8D11009D5E71 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4D53B3279E8D11009D5E71 /* Color.xcassets */; };
 		EC4D53B7279E8E0C009D5E71 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53B6279E8E0C009D5E71 /* Color.swift */; };
 		EC4D53B9279E8E16009D5E71 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53B8279E8E16009D5E71 /* Image.swift */; };
@@ -88,6 +94,12 @@
 		EC455F0B27AA5B39005E124D /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		EC455F0E27AA60EB005E124D /* SeSacTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSacTitleView.swift; sourceTree = "<group>"; };
 		EC455F1027AA611F005E124D /* SeSacReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSacReviewView.swift; sourceTree = "<group>"; };
+		EC455F1727ABAB00005E124D /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		EC455F1927ABB23C005E124D /* SeSacCharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSacCharacterViewController.swift; sourceTree = "<group>"; };
+		EC455F1B27ABB24E005E124D /* SeSacBackgroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSacBackgroundViewController.swift; sourceTree = "<group>"; };
+		EC455F1F27ABB5CA005E124D /* SeSacBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSacBackgroundView.swift; sourceTree = "<group>"; };
+		EC455F2127ABB5E7005E124D /* SeSacCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSacCharacterView.swift; sourceTree = "<group>"; };
+		EC455F2327ABB700005E124D /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
 		EC4D53B3279E8D11009D5E71 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		EC4D53B6279E8E0C009D5E71 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		EC4D53B8279E8E16009D5E71 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
@@ -250,6 +262,14 @@
 				EC455F0627AA54C3005E124D /* WithdrawlTableViewCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		EC455F1627ABAAE9005E124D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC455F1727ABAB00005E124D /* ShopView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		EC4D53B5279E8DF3009D5E71 /* NameSpace */ = {
@@ -491,8 +511,14 @@
 		ECB6A6FA27A0A0ED00E55E2C /* Shop */ = {
 			isa = PBXGroup;
 			children = (
+				EC455F1627ABAAE9005E124D /* View */,
 				ECB6A70927A0A1E600E55E2C /* ShopViewController.swift */,
 				ECB6A70A27A0A1E600E55E2C /* ShopViewController.xib */,
+				EC455F1927ABB23C005E124D /* SeSacCharacterViewController.swift */,
+				EC455F1B27ABB24E005E124D /* SeSacBackgroundViewController.swift */,
+				EC455F1F27ABB5CA005E124D /* SeSacBackgroundView.swift */,
+				EC455F2127ABB5E7005E124D /* SeSacCharacterView.swift */,
+				EC455F2327ABB700005E124D /* CharacterCollectionViewCell.swift */,
 			);
 			path = Shop;
 			sourceTree = "<group>";
@@ -612,6 +638,7 @@
 				EC455EED27A91C5F005E124D /* GetRequestViewController.swift in Sources */,
 				EC455F0F27AA60EB005E124D /* SeSacTitleView.swift in Sources */,
 				EC455F0527AA5498005E124D /* UserInfoTableViewCell.swift in Sources */,
+				EC455F2427ABB700005E124D /* CharacterCollectionViewCell.swift in Sources */,
 				EC455F0027AA5479005E124D /* UserTableViewCell.swift in Sources */,
 				EC455F1127AA611F005E124D /* SeSacReviewView.swift in Sources */,
 				EC4D53C9279E99CF009D5E71 /* BirthViewController.swift in Sources */,
@@ -623,10 +650,13 @@
 				ECB2F3E927965CAC00BCCA60 /* SceneDelegate.swift in Sources */,
 				EC455F0727AA54C3005E124D /* WithdrawlTableViewCell.swift in Sources */,
 				EC4D53C5279E9741009D5E71 /* NicknameViewController.swift in Sources */,
+				EC455F2227ABB5E7005E124D /* SeSacCharacterView.swift in Sources */,
 				EC455EE927A91B5B005E124D /* PagerTab.swift in Sources */,
 				ECB6A6EA27A0484200E55E2C /* GenericResponse.swift in Sources */,
 				EC455F0A27AA57E1005E124D /* ProfileImageView.swift in Sources */,
+				EC455F1A27ABB23C005E124D /* SeSacCharacterViewController.swift in Sources */,
 				EC455EEB27A91C51005E124D /* NearSeSacViewController.swift in Sources */,
+				EC455F1827ABAB00005E124D /* ShopView.swift in Sources */,
 				EC4D53D1279E99F4009D5E71 /* GenderViewController.swift in Sources */,
 				ECB6A70B27A0A1E600E55E2C /* ShopViewController.swift in Sources */,
 				EC6134AA2796610100DCE48C /* BaseViewController.swift in Sources */,
@@ -637,7 +667,9 @@
 				EC455F0C27AA5B39005E124D /* UserView.swift in Sources */,
 				EC455ECB27A8E827005E124D /* informationView.swift in Sources */,
 				ECB6A70227A0A11700E55E2C /* SeSacFriendViewController.swift in Sources */,
+				EC455F1C27ABB24E005E124D /* SeSacBackgroundViewController.swift in Sources */,
 				EC455EC927A8E7D0005E124D /* InformationViewController.swift in Sources */,
+				EC455F2027ABB5CA005E124D /* SeSacBackgroundView.swift in Sources */,
 				EC4D53B7279E8E0C009D5E71 /* Color.swift in Sources */,
 				EC4D53CD279E99E3009D5E71 /* EmailViewController.swift in Sources */,
 				ECB6A6E827A0482B00E55E2C /* NetworkService.swift in Sources */,
