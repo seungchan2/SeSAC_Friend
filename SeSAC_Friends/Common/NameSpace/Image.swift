@@ -24,4 +24,6 @@ public enum Image {
     public static let sesacPermit = UIImage(named: "sesacPermit")!
     public static let sesacRing = UIImage(named: "sesacRing")!
     public static let sesacCard = UIImage(named: "sesacCard")!
+    public static let sesacDownArrow = UIImage(named: "sesacDownArrow")!
+    public static let sesacUpArrow = UIImage(named: "sesacUpArrow")!
 }
