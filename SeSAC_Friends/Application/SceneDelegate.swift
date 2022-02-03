@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
         
-        let rootViewController = ManagementViewController.instanceFromNib()
+        let rootViewController = ShopViewController.instanceFromNib()
         window?.rootViewController = rootViewController
         window?.makeKeyAndVisible()
     }
