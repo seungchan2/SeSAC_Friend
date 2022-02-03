@@ -17,7 +17,4 @@ final class SeSacFriendViewController: BaseViewController {
     override func style() {
         view.backgroundColor = .gray
     }
-
-
-
 }
