@@ -7,15 +7,19 @@
 
 import UIKit
 
+// 타이머
+// 번호 문자로 받기
 final class MessageViewController: BaseViewController {
    
+    var auth = Auth.shared
+    
     var limitTime: Int = 60
     
     @IBOutlet var timerLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(auth.phoneNumber)
     }
 
     @IBAction func resendButtonClicked(_ sender: UIButton) {

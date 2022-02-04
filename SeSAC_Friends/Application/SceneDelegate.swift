@@ -17,8 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
         
-        let rootViewController = TabBarController.instanceFromNib()
-        window?.rootViewController = rootViewController
+        window?.rootViewController = UINavigationController(rootViewController: PhoneViewController.instanceFromNib())
         window?.makeKeyAndVisible()
     }
 }
