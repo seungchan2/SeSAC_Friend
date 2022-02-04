@@ -34,6 +34,7 @@
 		EC455F2227ABB5E7005E124D /* SeSacCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455F2127ABB5E7005E124D /* SeSacCharacterView.swift */; };
 		EC455F2427ABB700005E124D /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455F2327ABB700005E124D /* CharacterCollectionViewCell.swift */; };
 		EC455F3127ABC8D7005E124D /* BackgroundCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455F3027ABC8D7005E124D /* BackgroundCollectionViewCell.swift */; };
+		EC455F3A27ACF670005E124D /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455F3927ACF670005E124D /* AuthModel.swift */; };
 		EC4D53B4279E8D11009D5E71 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4D53B3279E8D11009D5E71 /* Color.xcassets */; };
 		EC4D53B7279E8E0C009D5E71 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53B6279E8E0C009D5E71 /* Color.swift */; };
 		EC4D53B9279E8E16009D5E71 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53B8279E8E16009D5E71 /* Image.swift */; };
@@ -51,10 +52,11 @@
 		EC4D53D4279F5698009D5E71 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4D53D3279F5698009D5E71 /* Image.xcassets */; };
 		EC6134AA2796610100DCE48C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6134A92796610100DCE48C /* BaseViewController.swift */; };
 		EC6134B42796A11E00DCE48C /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6134B22796A11E00DCE48C /* PhoneViewController.swift */; };
-		EC6134B52796A11E00DCE48C /* PhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6134B32796A11E00DCE48C /* PhoneViewController.xib */; };
 		EC6134B82796A32100DCE48C /* EasyKit in Frameworks */ = {isa = PBXBuildFile; productRef = EC6134B72796A32100DCE48C /* EasyKit */; };
 		EC6134BB2796A63000DCE48C /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6134B92796A63000DCE48C /* MessageViewController.swift */; };
 		EC6134BC2796A63000DCE48C /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6134BA2796A63000DCE48C /* MessageViewController.xib */; };
+		ECB2B85D27AD021A00EEEBF4 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B85C27AD021A00EEEBF4 /* ButtonStyle.swift */; };
+		ECB2B85F27AD022F00EEEBF4 /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */; };
 		ECB2F3E727965CAC00BCCA60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2F3E627965CAC00BCCA60 /* AppDelegate.swift */; };
 		ECB2F3E927965CAC00BCCA60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2F3E827965CAC00BCCA60 /* SceneDelegate.swift */; };
 		ECB2F3F027965CAD00BCCA60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB2F3EF27965CAD00BCCA60 /* Assets.xcassets */; };
@@ -101,6 +103,7 @@
 		EC455F2127ABB5E7005E124D /* SeSacCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSacCharacterView.swift; sourceTree = "<group>"; };
 		EC455F2327ABB700005E124D /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
 		EC455F3027ABC8D7005E124D /* BackgroundCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC455F3927ACF670005E124D /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthModel.swift; path = ../../../../../Desktop/AuthModel.swift; sourceTree = "<group>"; };
 		EC4D53B3279E8D11009D5E71 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		EC4D53B6279E8E0C009D5E71 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		EC4D53B8279E8E16009D5E71 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
@@ -115,9 +118,10 @@
 		EC4D53D3279F5698009D5E71 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		EC6134A92796610100DCE48C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		EC6134B22796A11E00DCE48C /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
-		EC6134B32796A11E00DCE48C /* PhoneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhoneViewController.xib; sourceTree = "<group>"; };
 		EC6134B92796A63000DCE48C /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		EC6134BA2796A63000DCE48C /* MessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
+		ECB2B85C27AD021A00EEEBF4 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
 		ECB2F3E327965CAC00BCCA60 /* SeSAC_Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSAC_Friends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB2F3E627965CAC00BCCA60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECB2F3E827965CAC00BCCA60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -357,6 +361,59 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		EC455F3227ACC7DE005E124D /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				EC6134B22796A11E00DCE48C /* PhoneViewController.swift */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		EC455F3327ACC81C005E124D /* Gender */ = {
+			isa = PBXGroup;
+			children = (
+				EC4D53CF279E99F4009D5E71 /* GenderViewController.swift */,
+				EC4D53D0279E99F4009D5E71 /* GenderViewController.xib */,
+			);
+			path = Gender;
+			sourceTree = "<group>";
+		};
+		EC455F3427ACC827005E124D /* Nickname */ = {
+			isa = PBXGroup;
+			children = (
+				EC4D53C3279E9741009D5E71 /* NicknameViewController.swift */,
+				EC4D53C4279E9741009D5E71 /* NicknameViewController.xib */,
+			);
+			path = Nickname;
+			sourceTree = "<group>";
+		};
+		EC455F3527ACC833005E124D /* Birth */ = {
+			isa = PBXGroup;
+			children = (
+				EC4D53C7279E99CF009D5E71 /* BirthViewController.swift */,
+				EC4D53C8279E99CF009D5E71 /* BirthViewController.xib */,
+			);
+			path = Birth;
+			sourceTree = "<group>";
+		};
+		EC455F3627ACC844005E124D /* Email */ = {
+			isa = PBXGroup;
+			children = (
+				EC4D53CB279E99E3009D5E71 /* EmailViewController.swift */,
+				EC4D53CC279E99E3009D5E71 /* EmailViewController.xib */,
+			);
+			path = Email;
+			sourceTree = "<group>";
+		};
+		EC455F3727ACC883005E124D /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				EC6134B92796A63000DCE48C /* MessageViewController.swift */,
+				EC6134BA2796A63000DCE48C /* MessageViewController.xib */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
 		EC4D53B5279E8DF3009D5E71 /* NameSpace */ = {
 			isa = PBXGroup;
 			children = (
@@ -403,6 +460,8 @@
 		EC6134A12796605500DCE48C /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				ECB2B85C27AD021A00EEEBF4 /* ButtonStyle.swift */,
+				ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -410,17 +469,18 @@
 		EC6134A22796607200DCE48C /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				EC6134A32796607700DCE48C /* Model */,
+				EC6134A32796607700DCE48C /* AppModel */,
 				EC6134A42796608100DCE48C /* DTO */,
 			);
 			path = Data;
 			sourceTree = "<group>";
 		};
-		EC6134A32796607700DCE48C /* Model */ = {
+		EC6134A32796607700DCE48C /* AppModel */ = {
 			isa = PBXGroup;
 			children = (
+				EC455F3927ACF670005E124D /* AuthModel.swift */,
 			);
-			path = Model;
+			path = AppModel;
 			sourceTree = "<group>";
 		};
 		EC6134A42796608100DCE48C /* DTO */ = {
@@ -474,18 +534,12 @@
 		EC6134AB2796611D00DCE48C /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				EC6134B22796A11E00DCE48C /* PhoneViewController.swift */,
-				EC6134B32796A11E00DCE48C /* PhoneViewController.xib */,
-				EC6134B92796A63000DCE48C /* MessageViewController.swift */,
-				EC6134BA2796A63000DCE48C /* MessageViewController.xib */,
-				EC4D53C3279E9741009D5E71 /* NicknameViewController.swift */,
-				EC4D53C4279E9741009D5E71 /* NicknameViewController.xib */,
-				EC4D53C7279E99CF009D5E71 /* BirthViewController.swift */,
-				EC4D53C8279E99CF009D5E71 /* BirthViewController.xib */,
-				EC4D53CB279E99E3009D5E71 /* EmailViewController.swift */,
-				EC4D53CC279E99E3009D5E71 /* EmailViewController.xib */,
-				EC4D53CF279E99F4009D5E71 /* GenderViewController.swift */,
-				EC4D53D0279E99F4009D5E71 /* GenderViewController.xib */,
+				EC455F3227ACC7DE005E124D /* Phone */,
+				EC455F3727ACC883005E124D /* Message */,
+				EC455F3627ACC844005E124D /* Email */,
+				EC455F3427ACC827005E124D /* Nickname */,
+				EC455F3527ACC833005E124D /* Birth */,
+				EC455F3327ACC81C005E124D /* Gender */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -690,7 +744,6 @@
 				EC4D53C6279E9741009D5E71 /* NicknameViewController.xib in Resources */,
 				ECB2F3F327965CAD00BCCA60 /* LaunchScreen.storyboard in Resources */,
 				EC4D53CA279E99CF009D5E71 /* BirthViewController.xib in Resources */,
-				EC6134B52796A11E00DCE48C /* PhoneViewController.xib in Resources */,
 				EC455EF127A91C86005E124D /* FindSeSacViewController.xib in Resources */,
 				EC4D53B4279E8D11009D5E71 /* Color.xcassets in Resources */,
 				EC6134BC2796A63000DCE48C /* MessageViewController.xib in Resources */,
@@ -732,6 +785,7 @@
 				EC455F2227ABB5E7005E124D /* SeSacCharacterView.swift in Sources */,
 				EC455EE927A91B5B005E124D /* PagerTab.swift in Sources */,
 				ECB6A6EA27A0484200E55E2C /* GenericResponse.swift in Sources */,
+				EC455F3A27ACF670005E124D /* AuthModel.swift in Sources */,
 				EC455F0A27AA57E1005E124D /* ProfileImageView.swift in Sources */,
 				EC455F1A27ABB23C005E124D /* SeSacCharacterViewController.swift in Sources */,
 				EC455EEB27A91C51005E124D /* NearSeSacViewController.swift in Sources */,
@@ -741,8 +795,10 @@
 				EC6134AA2796610100DCE48C /* BaseViewController.swift in Sources */,
 				EC455EFE27AA5464005E124D /* ProfileImageTableViewCell.swift in Sources */,
 				ECB6A6F827A0A0EA00E55E2C /* HomeViewController.swift in Sources */,
+				ECB2B85F27AD022F00EEEBF4 /* TextFieldStyle.swift in Sources */,
 				EC455EF627AA532B005E124D /* ManagementViewController.swift in Sources */,
 				EC6134BB2796A63000DCE48C /* MessageViewController.swift in Sources */,
+				ECB2B85D27AD021A00EEEBF4 /* ButtonStyle.swift in Sources */,
 				EC455F0C27AA5B39005E124D /* UserView.swift in Sources */,
 				EC455ECB27A8E827005E124D /* informationView.swift in Sources */,
 				ECB6A70227A0A11700E55E2C /* SeSacFriendViewController.swift in Sources */,
