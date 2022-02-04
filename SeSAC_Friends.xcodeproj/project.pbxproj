@@ -42,11 +42,8 @@
 		EC4D53BF279E8FDE009D5E71 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EC4D53BE279E8FDE009D5E71 /* SnapKit */; };
 		EC4D53C2279E8FEA009D5E71 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = EC4D53C1279E8FEA009D5E71 /* Then */; };
 		EC4D53C5279E9741009D5E71 /* NicknameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53C3279E9741009D5E71 /* NicknameViewController.swift */; };
-		EC4D53C6279E9741009D5E71 /* NicknameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4D53C4279E9741009D5E71 /* NicknameViewController.xib */; };
 		EC4D53C9279E99CF009D5E71 /* BirthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53C7279E99CF009D5E71 /* BirthViewController.swift */; };
-		EC4D53CA279E99CF009D5E71 /* BirthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4D53C8279E99CF009D5E71 /* BirthViewController.xib */; };
 		EC4D53CD279E99E3009D5E71 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53CB279E99E3009D5E71 /* EmailViewController.swift */; };
-		EC4D53CE279E99E3009D5E71 /* EmailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4D53CC279E99E3009D5E71 /* EmailViewController.xib */; };
 		EC4D53D1279E99F4009D5E71 /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D53CF279E99F4009D5E71 /* GenderViewController.swift */; };
 		EC4D53D2279E99F4009D5E71 /* GenderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4D53D0279E99F4009D5E71 /* GenderViewController.xib */; };
 		EC4D53D4279F5698009D5E71 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4D53D3279F5698009D5E71 /* Image.xcassets */; };
@@ -56,7 +53,7 @@
 		EC6134BB2796A63000DCE48C /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6134B92796A63000DCE48C /* MessageViewController.swift */; };
 		ECB2B85D27AD021A00EEEBF4 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B85C27AD021A00EEEBF4 /* ButtonStyle.swift */; };
 		ECB2B85F27AD022F00EEEBF4 /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */; };
-		ECB2B86127AD210700EEEBF4 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86027AD210700EEEBF4 /* PhoneView.swift */; };
+		ECB2B86127AD210700EEEBF4 /* AuthCommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86027AD210700EEEBF4 /* AuthCommonView.swift */; };
 		ECB2B86327AD222400EEEBF4 /* Representable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86227AD222400EEEBF4 /* Representable.swift */; };
 		ECB2B86627AD2C6700EEEBF4 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86527AD2C6700EEEBF4 /* MessageView.swift */; };
 		ECB2F3E727965CAC00BCCA60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2F3E627965CAC00BCCA60 /* AppDelegate.swift */; };
@@ -110,11 +107,8 @@
 		EC4D53B6279E8E0C009D5E71 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		EC4D53B8279E8E16009D5E71 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		EC4D53C3279E9741009D5E71 /* NicknameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController.swift; sourceTree = "<group>"; };
-		EC4D53C4279E9741009D5E71 /* NicknameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NicknameViewController.xib; sourceTree = "<group>"; };
 		EC4D53C7279E99CF009D5E71 /* BirthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthViewController.swift; sourceTree = "<group>"; };
-		EC4D53C8279E99CF009D5E71 /* BirthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BirthViewController.xib; sourceTree = "<group>"; };
 		EC4D53CB279E99E3009D5E71 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
-		EC4D53CC279E99E3009D5E71 /* EmailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailViewController.xib; sourceTree = "<group>"; };
 		EC4D53CF279E99F4009D5E71 /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
 		EC4D53D0279E99F4009D5E71 /* GenderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenderViewController.xib; sourceTree = "<group>"; };
 		EC4D53D3279F5698009D5E71 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
@@ -123,7 +117,7 @@
 		EC6134B92796A63000DCE48C /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		ECB2B85C27AD021A00EEEBF4 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
-		ECB2B86027AD210700EEEBF4 /* PhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
+		ECB2B86027AD210700EEEBF4 /* AuthCommonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCommonView.swift; sourceTree = "<group>"; };
 		ECB2B86227AD222400EEEBF4 /* Representable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Representable.swift; sourceTree = "<group>"; };
 		ECB2B86527AD2C6700EEEBF4 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		ECB2F3E327965CAC00BCCA60 /* SeSAC_Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSAC_Friends.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -369,7 +363,6 @@
 			isa = PBXGroup;
 			children = (
 				EC6134B22796A11E00DCE48C /* PhoneViewController.swift */,
-				ECB2B86027AD210700EEEBF4 /* PhoneView.swift */,
 			);
 			path = Phone;
 			sourceTree = "<group>";
@@ -387,7 +380,6 @@
 			isa = PBXGroup;
 			children = (
 				EC4D53C3279E9741009D5E71 /* NicknameViewController.swift */,
-				EC4D53C4279E9741009D5E71 /* NicknameViewController.xib */,
 			);
 			path = Nickname;
 			sourceTree = "<group>";
@@ -396,7 +388,6 @@
 			isa = PBXGroup;
 			children = (
 				EC4D53C7279E99CF009D5E71 /* BirthViewController.swift */,
-				EC4D53C8279E99CF009D5E71 /* BirthViewController.xib */,
 			);
 			path = Birth;
 			sourceTree = "<group>";
@@ -405,7 +396,6 @@
 			isa = PBXGroup;
 			children = (
 				EC4D53CB279E99E3009D5E71 /* EmailViewController.swift */,
-				EC4D53CC279E99E3009D5E71 /* EmailViewController.xib */,
 			);
 			path = Email;
 			sourceTree = "<group>";
@@ -540,6 +530,7 @@
 		EC6134AB2796611D00DCE48C /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				ECB2B86027AD210700EEEBF4 /* AuthCommonView.swift */,
 				EC455F3227ACC7DE005E124D /* Phone */,
 				EC455F3727ACC883005E124D /* Message */,
 				EC455F3627ACC844005E124D /* Email */,
@@ -747,16 +738,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC4D53C6279E9741009D5E71 /* NicknameViewController.xib in Resources */,
 				ECB2F3F327965CAD00BCCA60 /* LaunchScreen.storyboard in Resources */,
-				EC4D53CA279E99CF009D5E71 /* BirthViewController.xib in Resources */,
 				EC455EF127A91C86005E124D /* FindSeSacViewController.xib in Resources */,
 				EC4D53B4279E8D11009D5E71 /* Color.xcassets in Resources */,
 				ECB2F3F027965CAD00BCCA60 /* Assets.xcassets in Resources */,
 				EC4D53D4279F5698009D5E71 /* Image.xcassets in Resources */,
 				EC4D53D2279E99F4009D5E71 /* GenderViewController.xib in Resources */,
 				EC455E9927A0A99B005E124D /* GoogleService-Info.plist in Resources */,
-				EC4D53CE279E99E3009D5E71 /* EmailViewController.xib in Resources */,
 				ECB6A70327A0A11700E55E2C /* SeSacFriendViewController.xib in Resources */,
 				ECB6A6F927A0A0EA00E55E2C /* HomeViewController.xib in Resources */,
 			);
@@ -791,7 +779,7 @@
 				EC4D53C5279E9741009D5E71 /* NicknameViewController.swift in Sources */,
 				EC455F2227ABB5E7005E124D /* SeSacCharacterView.swift in Sources */,
 				EC455EE927A91B5B005E124D /* PagerTab.swift in Sources */,
-				ECB2B86127AD210700EEEBF4 /* PhoneView.swift in Sources */,
+				ECB2B86127AD210700EEEBF4 /* AuthCommonView.swift in Sources */,
 				ECB6A6EA27A0484200E55E2C /* GenericResponse.swift in Sources */,
 				EC455F3A27ACF670005E124D /* AuthModel.swift in Sources */,
 				EC455F0A27AA57E1005E124D /* ProfileImageView.swift in Sources */,
