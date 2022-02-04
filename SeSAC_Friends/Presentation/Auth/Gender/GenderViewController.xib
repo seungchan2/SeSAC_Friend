@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GenderViewController" customModule="SeSAC_Friends" customModuleProvider="target">
             <connections>
+                <outlet property="confirmButton" destination="26Y-Pa-eUu" id="9VH-yM-00v"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outletCollection property="genderButton" destination="Rhy-yw-IBQ" collectionClass="NSMutableArray" id="EVR-6B-kzo"/>
                 <outletCollection property="genderButton" destination="EHA-eb-6wg" collectionClass="NSMutableArray" id="5Cl-DN-99t"/>
