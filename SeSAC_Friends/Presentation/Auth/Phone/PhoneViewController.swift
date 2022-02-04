@@ -14,7 +14,7 @@ final class PhoneViewController: BaseViewController {
     // 변환된 전화번호 값을 저장하는 변수
     var userPhoneNumber = String()
     
-    let phoneView = PhoneView()
+    let phoneView = AuthCommonView()
     
     override func loadView() {
         view = phoneView
@@ -29,18 +29,23 @@ final class PhoneViewController: BaseViewController {
     override func style() {
         super.style()
         view.backgroundColor = Color.sesacWhite
+        setPhoneView()
+    }
+    
+    private func setPhoneView() {
+        phoneView.confirmButton.setTitle("인증 문자 받기", for: .normal)
     }
     
     private func assignDelegate() {
-        phoneView.phoneNumberTextField.textField.delegate = self
+        phoneView.commonTextField.textField.delegate = self
     }
     
     private func setTextField() {
-        phoneView.phoneNumberTextField.textField.addTarget(self, action: #selector(phoneNumberTextFieldDidChange(_:)), for: UIControl.Event.allEditingEvents)
+        phoneView.commonTextField.textField.addTarget(self, action: #selector(phoneNumberTextFieldDidChange(_:)), for: UIControl.Event.allEditingEvents)
     }
     
     @objc func phoneNumberTextFieldDidChange(_ textField: UITextField) {
-        guard let phoneNumber = phoneView.phoneNumberTextField.textField.text else { return }
+        guard let phoneNumber = phoneView.commonTextField.textField.text else { return }
         
         let krPhoneNumber = "+82" + phoneNumber.replacingOccurrences(of: "-", with: "")
         

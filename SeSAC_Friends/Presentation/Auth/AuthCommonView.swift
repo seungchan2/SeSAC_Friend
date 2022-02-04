@@ -1,5 +1,5 @@
 //
-//  PhoneView.swift
+//  AuthCommonView.swift
 //  SeSAC_Friends
 //
 //  Created by 김승찬 on 2022/02/04.
@@ -10,7 +10,8 @@ import UIKit
 import SnapKit
 import Then
 
-class PhoneView: UIView, Representable {
+// Phone, Nickname, Email 공통적으로 쓰임
+class AuthCommonView: UIView, Representable {
     
     let explainLabel = UILabel().then {
         $0.text = "새싹 서비스 이용을 위해\n휴대폰 번호를 입력해주세요"
@@ -19,11 +20,18 @@ class PhoneView: UIView, Representable {
         $0.textAlignment = .center
     }
     
-    let phoneNumberTextField = TextFieldStyle(frame: CGRect(), mode: .inactive).then {
+    let subTextLabel = UILabel().then {
+        $0.text = "휴대폰 번호 변경 시 인증을 위해서 사용해요"
+        $0.textColor = Color.sesacGray7
+        $0.textAlignment = .center
+        $0.isHidden = true
+    }
+    
+    let commonTextField = TextFieldStyle(frame: CGRect(), mode: .inactive).then {
         $0.textField.placeholder = "휴대폰 번호(-없이 숫자만 입력)"
     }
     
-    let confirmButton = ButtonStyle(frame: CGRect(), mode: .inactive, text: "인증 문자 받기")
+    let confirmButton = ButtonStyle(frame: CGRect(), mode: .inactive, text: "다음")
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -36,7 +44,7 @@ class PhoneView: UIView, Representable {
     }
     
     func setUI() {
-        [explainLabel, phoneNumberTextField, confirmButton].forEach {
+        [explainLabel, commonTextField, confirmButton, subTextLabel].forEach {
             self.addSubview($0)
         }
     }
@@ -44,16 +52,21 @@ class PhoneView: UIView, Representable {
     func setupConstraints() {
         explainLabel.snp.makeConstraints {
             $0.top.equalToSuperview().offset(168)
-            $0.leading.equalToSuperview().inset(74)
+            $0.centerX.equalToSuperview()
         }
         
-        phoneNumberTextField.snp.makeConstraints {
+        subTextLabel.snp.makeConstraints {
+            $0.top.equalTo(explainLabel.snp.bottom).inset(-8)
+            $0.centerX.equalToSuperview()
+        }
+        
+        commonTextField.snp.makeConstraints {
             $0.top.equalTo(explainLabel.snp.bottom).offset(62)
             $0.leading.trailing.equalToSuperview().inset(16)
         }
         
         confirmButton.snp.makeConstraints {
-            $0.top.equalTo(phoneNumberTextField.snp.bottom).offset(64)
+            $0.top.equalTo(commonTextField.snp.bottom).offset(64)
             $0.leading.trailing.equalToSuperview().inset(16)
             $0.height.equalTo(48)
         }
