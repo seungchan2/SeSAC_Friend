@@ -56,6 +56,8 @@
 		ECB2B86127AD210700EEEBF4 /* AuthCommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86027AD210700EEEBF4 /* AuthCommonView.swift */; };
 		ECB2B86327AD222400EEEBF4 /* Representable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86227AD222400EEEBF4 /* Representable.swift */; };
 		ECB2B86627AD2C6700EEEBF4 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86527AD2C6700EEEBF4 /* MessageView.swift */; };
+		ECB2B86827AD3D1700EEEBF4 /* BirthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86727AD3D1700EEEBF4 /* BirthView.swift */; };
+		ECB2B86A27AD3DB700EEEBF4 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86927AD3DB700EEEBF4 /* DayView.swift */; };
 		ECB2F3E727965CAC00BCCA60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2F3E627965CAC00BCCA60 /* AppDelegate.swift */; };
 		ECB2F3E927965CAC00BCCA60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2F3E827965CAC00BCCA60 /* SceneDelegate.swift */; };
 		ECB2F3F027965CAD00BCCA60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB2F3EF27965CAD00BCCA60 /* Assets.xcassets */; };
@@ -120,6 +122,8 @@
 		ECB2B86027AD210700EEEBF4 /* AuthCommonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCommonView.swift; sourceTree = "<group>"; };
 		ECB2B86227AD222400EEEBF4 /* Representable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Representable.swift; sourceTree = "<group>"; };
 		ECB2B86527AD2C6700EEEBF4 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		ECB2B86727AD3D1700EEEBF4 /* BirthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthView.swift; sourceTree = "<group>"; };
+		ECB2B86927AD3DB700EEEBF4 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
 		ECB2F3E327965CAC00BCCA60 /* SeSAC_Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSAC_Friends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB2F3E627965CAC00BCCA60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECB2F3E827965CAC00BCCA60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -388,6 +392,8 @@
 			isa = PBXGroup;
 			children = (
 				EC4D53C7279E99CF009D5E71 /* BirthViewController.swift */,
+				ECB2B86727AD3D1700EEEBF4 /* BirthView.swift */,
+				ECB2B86927AD3DB700EEEBF4 /* DayView.swift */,
 			);
 			path = Birth;
 			sourceTree = "<group>";
@@ -785,8 +791,10 @@
 				EC455F0A27AA57E1005E124D /* ProfileImageView.swift in Sources */,
 				EC455F1A27ABB23C005E124D /* SeSacCharacterViewController.swift in Sources */,
 				EC455EEB27A91C51005E124D /* NearSeSacViewController.swift in Sources */,
+				ECB2B86827AD3D1700EEEBF4 /* BirthView.swift in Sources */,
 				EC455F1827ABAB00005E124D /* ShopView.swift in Sources */,
 				EC4D53D1279E99F4009D5E71 /* GenderViewController.swift in Sources */,
+				ECB2B86A27AD3DB700EEEBF4 /* DayView.swift in Sources */,
 				ECB6A70B27A0A1E600E55E2C /* ShopViewController.swift in Sources */,
 				EC6134AA2796610100DCE48C /* BaseViewController.swift in Sources */,
 				EC455EFE27AA5464005E124D /* ProfileImageTableViewCell.swift in Sources */,
