@@ -57,6 +57,8 @@
 		EC6134BC2796A63000DCE48C /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6134BA2796A63000DCE48C /* MessageViewController.xib */; };
 		ECB2B85D27AD021A00EEEBF4 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B85C27AD021A00EEEBF4 /* ButtonStyle.swift */; };
 		ECB2B85F27AD022F00EEEBF4 /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */; };
+		ECB2B86127AD210700EEEBF4 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86027AD210700EEEBF4 /* PhoneView.swift */; };
+		ECB2B86327AD222400EEEBF4 /* Representable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86227AD222400EEEBF4 /* Representable.swift */; };
 		ECB2F3E727965CAC00BCCA60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2F3E627965CAC00BCCA60 /* AppDelegate.swift */; };
 		ECB2F3E927965CAC00BCCA60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2F3E827965CAC00BCCA60 /* SceneDelegate.swift */; };
 		ECB2F3F027965CAD00BCCA60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB2F3EF27965CAD00BCCA60 /* Assets.xcassets */; };
@@ -122,6 +124,8 @@
 		EC6134BA2796A63000DCE48C /* MessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
 		ECB2B85C27AD021A00EEEBF4 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
+		ECB2B86027AD210700EEEBF4 /* PhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
+		ECB2B86227AD222400EEEBF4 /* Representable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Representable.swift; sourceTree = "<group>"; };
 		ECB2F3E327965CAC00BCCA60 /* SeSAC_Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSAC_Friends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB2F3E627965CAC00BCCA60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECB2F3E827965CAC00BCCA60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -365,6 +369,7 @@
 			isa = PBXGroup;
 			children = (
 				EC6134B22796A11E00DCE48C /* PhoneViewController.swift */,
+				ECB2B86027AD210700EEEBF4 /* PhoneView.swift */,
 			);
 			path = Phone;
 			sourceTree = "<group>";
@@ -462,6 +467,7 @@
 			children = (
 				ECB2B85C27AD021A00EEEBF4 /* ButtonStyle.swift */,
 				ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */,
+				ECB2B86227AD222400EEEBF4 /* Representable.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -774,6 +780,7 @@
 				EC455F0027AA5479005E124D /* UserTableViewCell.swift in Sources */,
 				EC455F1127AA611F005E124D /* SeSacReviewView.swift in Sources */,
 				EC4D53C9279E99CF009D5E71 /* BirthViewController.swift in Sources */,
+				ECB2B86327AD222400EEEBF4 /* Representable.swift in Sources */,
 				EC455EF027A91C86005E124D /* FindSeSacViewController.swift in Sources */,
 				ECB6A6F427A09E5700E55E2C /* TabBarController.swift in Sources */,
 				EC6134B42796A11E00DCE48C /* PhoneViewController.swift in Sources */,
@@ -784,6 +791,7 @@
 				EC4D53C5279E9741009D5E71 /* NicknameViewController.swift in Sources */,
 				EC455F2227ABB5E7005E124D /* SeSacCharacterView.swift in Sources */,
 				EC455EE927A91B5B005E124D /* PagerTab.swift in Sources */,
+				ECB2B86127AD210700EEEBF4 /* PhoneView.swift in Sources */,
 				ECB6A6EA27A0484200E55E2C /* GenericResponse.swift in Sources */,
 				EC455F3A27ACF670005E124D /* AuthModel.swift in Sources */,
 				EC455F0A27AA57E1005E124D /* ProfileImageView.swift in Sources */,
