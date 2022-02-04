@@ -15,17 +15,19 @@ enum GenderType: Int, CaseIterable {
 final class GenderViewController: BaseViewController {
     
     @IBOutlet var genderButton: [UIButton]!
+    @IBOutlet var confirmButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
     override func style() {
+        super.style()
         setButtonUI()
     }
     
     private func setButtonUI() {
+        confirmButton.makeRounded(radius: 8)
         genderButton.forEach {
             $0.makeRoundedWithBorder(radius: 12, color: Color.sesacGray3.cgColor, borderWith: 1)
         }
