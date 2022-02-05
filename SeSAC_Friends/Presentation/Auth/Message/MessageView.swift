@@ -19,6 +19,10 @@ class MessageView: UIView, Representable {
         $0.textAlignment = .center
     }
     
+    let backButton = UIButton().then {
+        $0.setImage(Image.sesacBack, for: .normal)
+    }
+    
     let timeMaxLabel = UILabel().then {
         $0.text = "(최대 20초 소모)"
         $0.textColor = Color.sesacGray7
@@ -51,7 +55,7 @@ class MessageView: UIView, Representable {
     }
     
     func setUI() {
-        [explainLabel, timeMaxLabel, phoneNumberTextField, timerLabel, timerButton, confirmButton].forEach {
+        [explainLabel, backButton, timeMaxLabel, phoneNumberTextField, timerLabel, timerButton, confirmButton].forEach {
             self.addSubview($0)
         }
     }
@@ -60,6 +64,12 @@ class MessageView: UIView, Representable {
         explainLabel.snp.makeConstraints {
             $0.top.equalToSuperview().offset(168)
             $0.centerX.equalToSuperview()
+        }
+        
+        backButton.snp.makeConstraints {
+            $0.top.equalToSuperview().inset(57)
+            $0.leading.equalToSuperview().inset(13)
+            $0.width.height.equalTo(24)
         }
         
         timeMaxLabel.snp.makeConstraints {
