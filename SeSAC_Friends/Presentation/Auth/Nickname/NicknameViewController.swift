@@ -30,5 +30,4 @@ final class NicknameViewController: BaseViewController {
         nicknameView.explainLabel.text = "닉네임을 입력해주세요"
         nicknameView.commonTextField.textField.placeholder = "10자 이내로 입력"
     }
-    
 }
