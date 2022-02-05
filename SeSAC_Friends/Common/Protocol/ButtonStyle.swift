@@ -32,21 +32,23 @@ class ButtonStyle: UIButton {
         fatalError()
     }
     
-    private func setupView(text: String) {
+    func setupView(text: String) {
         makeRounded(radius: 8)
         setTitle(text, for: .normal)
         titleLabel?.font = .systemFont(ofSize: 14)
     }
     
-    private func setupMode(mode: ButtonMode) {
+    func setupMode(mode: ButtonMode) {
         self.mode = mode
         switch self.mode {
         case .inactive:
             backgroundColor = Color.sesacGray6
             setTitleColor(Color.sesacGray3, for: .normal)
+            isEnabled = false
         case .active:
             backgroundColor = Color.sesacGreen
             setTitleColor(Color.sesacWhite, for: .normal)
+            isEnabled = true
         }
     }
 }

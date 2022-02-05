@@ -12,7 +12,7 @@ import Then
 
 enum TextFieldMode: Int {
     case inactive
-    case end
+    case input
     case active
 }
 
@@ -63,9 +63,9 @@ class TextFieldStyle: UIView, Representable {
         self.mode = mode
         switch self.mode {
         case .inactive:
-            textField.textColor = Color.sesacGray7
+            textField.textColor = Color.sesacBlack
             lineView.backgroundColor = Color.sesacGray3
-        case .end:
+        case .input:
             textField.textColor = Color.sesacBlack
             lineView.backgroundColor = Color.sesacBlack
         case .active:
