@@ -40,6 +40,7 @@ final class PhoneViewController: BaseViewController {
     private func setPhoneView() {
         phoneView.confirmButton.setTitle("인증 문자 받기", for: .normal)
         phoneView.commonTextField.textField.keyboardType = .numberPad
+        phoneView.backButton.isHidden = true
     }
 
     private func setTextField() {

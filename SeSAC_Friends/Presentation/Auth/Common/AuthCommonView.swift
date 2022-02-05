@@ -20,6 +20,10 @@ class AuthCommonView: UIView, Representable {
         $0.textAlignment = .center
     }
     
+    let backButton = UIButton().then {
+        $0.setImage(Image.sesacBack, for: .normal)
+    }
+    
     let subTextLabel = UILabel().then {
         $0.text = "휴대폰 번호 변경 시 인증을 위해서 사용해요"
         $0.textColor = Color.sesacGray7
@@ -44,7 +48,7 @@ class AuthCommonView: UIView, Representable {
     }
     
     func setUI() {
-        [explainLabel, commonTextField, confirmButton, subTextLabel].forEach {
+        [explainLabel, backButton, commonTextField, confirmButton, subTextLabel].forEach {
             self.addSubview($0)
         }
     }
@@ -53,6 +57,12 @@ class AuthCommonView: UIView, Representable {
         explainLabel.snp.makeConstraints {
             $0.top.equalToSuperview().offset(168)
             $0.centerX.equalToSuperview()
+        }
+        
+        backButton.snp.makeConstraints {
+            $0.top.equalToSuperview().inset(57)
+            $0.leading.equalToSuperview().inset(13)
+            $0.width.height.equalTo(24)
         }
         
         subTextLabel.snp.makeConstraints {
