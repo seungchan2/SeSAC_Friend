@@ -19,19 +19,30 @@ class BirthView: UIView, Representable {
     }
     
     let dateView = UIView()
+    
+    let backButton = UIButton().then {
+        $0.setImage(Image.sesacBack, for: .normal)
+    }
+    
     let yearView = DayView().then {
+        let today = Date()
+        let year = Calendar.current.component(.year, from: today)
         $0.dateLabel.text = "년"
-        $0.dayLabel.text = "2022"
+        $0.dayLabel.text = "\(year)"
     }
     
     let monthView = DayView().then {
+        let today = Date()
+        let month = Calendar.current.component(.month, from: today)
         $0.dateLabel.text = "월"
-        $0.dayLabel.text = "02"
+        $0.dayLabel.text = "\(month)"
     }
     
     let dayView = DayView().then {
+        let today = Date()
+        let day = Calendar.current.component(.day, from: today)
         $0.dateLabel.text = "일"
-        $0.dayLabel.text = "04"
+        $0.dayLabel.text = "\(day)"
     }
     
     let confirmButton = ButtonStyle(frame: CGRect(), mode: .inactive, text: "다음")
@@ -49,7 +60,7 @@ class BirthView: UIView, Representable {
     }
     
     internal func setUI() {
-        [explainLabel, dateView, confirmButton, datePicker].forEach {
+        [explainLabel, backButton, dateView, confirmButton, datePicker].forEach {
             self.addSubview($0)
         }
         [yearView, monthView, dayView].forEach {
@@ -61,6 +72,12 @@ class BirthView: UIView, Representable {
         explainLabel.snp.makeConstraints {
             $0.top.equalToSuperview().inset(169)
             $0.centerX.equalToSuperview()
+        }
+        
+        backButton.snp.makeConstraints {
+            $0.top.equalToSuperview().inset(57)
+            $0.leading.equalToSuperview().inset(13)
+            $0.width.height.equalTo(24)
         }
         
         dateView.snp.makeConstraints {

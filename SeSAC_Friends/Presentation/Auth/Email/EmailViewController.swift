@@ -10,6 +10,7 @@ import UIKit
 final class EmailViewController: BaseViewController {
 
     let emailView = AuthCommonView()
+    var auth = Auth.shared
     
     override func loadView() {
         view = emailView

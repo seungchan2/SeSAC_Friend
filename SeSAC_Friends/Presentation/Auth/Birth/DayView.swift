@@ -15,13 +15,13 @@ class DayView: UIView, Representable {
     let dayLabel = UILabel().then {
         $0.font = .systemFont(ofSize: 14)
         $0.textAlignment = .center
-        $0.textColor = Color.sesacGray7
+        $0.textColor = Color.sesacBlack
     }
     
     let dateLabel = UILabel().then {
         $0.font = .systemFont(ofSize: 16)
         $0.textAlignment = .center
-        $0.textColor = Color.sesacGray7
+        $0.textColor = Color.sesacBlack
     }
     
     let lineView = UIView().then {
