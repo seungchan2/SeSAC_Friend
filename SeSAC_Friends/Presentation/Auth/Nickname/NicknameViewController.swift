@@ -65,7 +65,7 @@ final class NicknameViewController: BaseViewController {
     
     @objc func touchConfirmButton() {
         auth.nickname = userNickname
-        navigationController?.pushViewController(EmailViewController.instanceFromNib(), animated: true)
+        navigationController?.pushViewController(BirthViewController.instanceFromNib(), animated: true)
      }
     
     @objc func nicknameTextFieldDidChange(_ textField: UITextField) {
@@ -80,7 +80,6 @@ final class NicknameViewController: BaseViewController {
         } else {
            inValidNickname()
         }
-        
         userNickname = nickname
     }
 }
