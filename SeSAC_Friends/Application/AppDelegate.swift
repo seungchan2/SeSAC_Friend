@@ -10,6 +10,7 @@ import UserNotifications
 
 import Firebase
 import FirebaseMessaging
+import FirebaseAuth
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
