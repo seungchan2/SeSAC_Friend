@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC455E9927A0A99B005E124D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC455E9827A0A99B005E124D /* GoogleService-Info.plist */; };
 		EC455EC927A8E7D0005E124D /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455EC827A8E7D0005E124D /* InformationViewController.swift */; };
 		EC455ECB27A8E827005E124D /* informationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455ECA27A8E827005E124D /* informationView.swift */; };
 		EC455ECD27A8E9D5005E124D /* informationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455ECC27A8E9D5005E124D /* informationTableViewCell.swift */; };
@@ -50,6 +49,7 @@
 		EC6134B42796A11E00DCE48C /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6134B22796A11E00DCE48C /* PhoneViewController.swift */; };
 		EC6134B82796A32100DCE48C /* EasyKit in Frameworks */ = {isa = PBXBuildFile; productRef = EC6134B72796A32100DCE48C /* EasyKit */; };
 		EC6134BB2796A63000DCE48C /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6134B92796A63000DCE48C /* MessageViewController.swift */; };
+		EC69721527AFAF5500085F80 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC69721427AFAF5500085F80 /* GoogleService-Info.plist */; };
 		ECB2B85D27AD021A00EEEBF4 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B85C27AD021A00EEEBF4 /* ButtonStyle.swift */; };
 		ECB2B85F27AD022F00EEEBF4 /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */; };
 		ECB2B86127AD210700EEEBF4 /* AuthCommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86027AD210700EEEBF4 /* AuthCommonView.swift */; };
@@ -79,7 +79,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EC455E9827A0A99B005E124D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EC455EC827A8E7D0005E124D /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		EC455ECA27A8E827005E124D /* informationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informationView.swift; sourceTree = "<group>"; };
 		EC455ECC27A8E9D5005E124D /* informationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informationTableViewCell.swift; sourceTree = "<group>"; };
@@ -118,6 +117,7 @@
 		EC6134A92796610100DCE48C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		EC6134B22796A11E00DCE48C /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
 		EC6134B92796A63000DCE48C /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		EC69721427AFAF5500085F80 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ECB2B85C27AD021A00EEEBF4 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
 		ECB2B86027AD210700EEEBF4 /* AuthCommonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCommonView.swift; sourceTree = "<group>"; };
@@ -565,8 +565,8 @@
 		EC6134AE2796616100DCE48C /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				EC69721427AFAF5500085F80 /* GoogleService-Info.plist */,
 				ECB2F3F427965CAD00BCCA60 /* Info.plist */,
-				EC455E9827A0A99B005E124D /* GoogleService-Info.plist */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -760,11 +760,11 @@
 			files = (
 				ECB2F3F327965CAD00BCCA60 /* LaunchScreen.storyboard in Resources */,
 				EC455EF127A91C86005E124D /* FindSeSacViewController.xib in Resources */,
+				EC69721527AFAF5500085F80 /* GoogleService-Info.plist in Resources */,
 				EC4D53B4279E8D11009D5E71 /* Color.xcassets in Resources */,
 				ECB2F3F027965CAD00BCCA60 /* Assets.xcassets in Resources */,
 				EC4D53D4279F5698009D5E71 /* Image.xcassets in Resources */,
 				EC4D53D2279E99F4009D5E71 /* GenderViewController.xib in Resources */,
-				EC455E9927A0A99B005E124D /* GoogleService-Info.plist in Resources */,
 				ECB6A70327A0A11700E55E2C /* SeSacFriendViewController.xib in Resources */,
 				ECB6A6F927A0A0EA00E55E2C /* HomeViewController.xib in Resources */,
 			);
@@ -983,7 +983,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "seungchan.SeSAC-Friends";
+				PRODUCT_BUNDLE_IDENTIFIER = com.memolease.sesac1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1011,7 +1011,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "seungchan.SeSAC-Friends";
+				PRODUCT_BUNDLE_IDENTIFIER = com.memolease.sesac1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

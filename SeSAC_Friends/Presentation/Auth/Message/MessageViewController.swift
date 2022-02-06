@@ -7,6 +7,8 @@
 
 import UIKit
 
+import FirebaseAuth
+
 final class MessageViewController: BaseViewController {
    
     let messageView = MessageView()
@@ -35,7 +37,7 @@ final class MessageViewController: BaseViewController {
     }
     
     @objc func touchTimerButton() {
-        startTimer()
+        sendCertification()
      }
     
     @objc func touchConfirmButton() {
@@ -45,6 +47,20 @@ final class MessageViewController: BaseViewController {
     @objc func touchBackButton() {
         navigationController?.popViewController(animated: true)
      }
+    
+    private func sendCertification() {
+           PhoneAuthProvider.provider()
+            .verifyPhoneNumber("01074138741", uiDelegate: nil) { verificationID, error in
+                 if error == nil {
+                    print("2")
+                 } else {
+                     print("error: ", error.debugDescription)
+                     print("1")
+                 }
+             }
+           self.view.endEditing(true)
+           startTimer()
+       }
     
     private func startTimer() {
            if self.timer == nil {
