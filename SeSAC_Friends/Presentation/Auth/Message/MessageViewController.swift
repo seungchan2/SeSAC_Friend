@@ -14,7 +14,7 @@ final class MessageViewController: BaseViewController {
     let messageView = MessageView()
     var timer: DispatchSourceTimer?
     var remainingTime = 300
-    var auth = Auth.shared
+    var auth = AuthViewModel.shared
     
     override func loadView() {
         view = messageView
@@ -23,6 +23,7 @@ final class MessageViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setAddTarget()
+        messageView.confirmButton.isEnabled = true
     }
      
     override func style() {

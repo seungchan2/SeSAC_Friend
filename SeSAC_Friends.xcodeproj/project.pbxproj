@@ -50,6 +50,10 @@
 		EC6134B82796A32100DCE48C /* EasyKit in Frameworks */ = {isa = PBXBuildFile; productRef = EC6134B72796A32100DCE48C /* EasyKit */; };
 		EC6134BB2796A63000DCE48C /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6134B92796A63000DCE48C /* MessageViewController.swift */; };
 		EC69721527AFAF5500085F80 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC69721427AFAF5500085F80 /* GoogleService-Info.plist */; };
+		EC69721827AFB8BB00085F80 /* AuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69721727AFB8BB00085F80 /* AuthAPI.swift */; };
+		EC69721A27AFB8C300085F80 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69721927AFB8C300085F80 /* AuthService.swift */; };
+		EC69721C27AFB8E600085F80 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69721B27AFB8E600085F80 /* URLs.swift */; };
+		EC69721F27AFBACB00085F80 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69721E27AFBACB00085F80 /* AuthModel.swift */; };
 		ECB2B85D27AD021A00EEEBF4 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B85C27AD021A00EEEBF4 /* ButtonStyle.swift */; };
 		ECB2B85F27AD022F00EEEBF4 /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */; };
 		ECB2B86127AD210700EEEBF4 /* AuthCommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86027AD210700EEEBF4 /* AuthCommonView.swift */; };
@@ -59,7 +63,6 @@
 		ECB2B86A27AD3DB700EEEBF4 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86927AD3DB700EEEBF4 /* DayView.swift */; };
 		ECB2B86D27AE1BB200EEEBF4 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86C27AE1BB200EEEBF4 /* Observable.swift */; };
 		ECB2B86F27AE1E5E00EEEBF4 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86E27AE1E5E00EEEBF4 /* AuthViewModel.swift */; };
-		ECB2B87227AE1E8800EEEBF4 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B87127AE1E8800EEEBF4 /* AuthModel.swift */; };
 		ECB2F3E727965CAC00BCCA60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2F3E627965CAC00BCCA60 /* AppDelegate.swift */; };
 		ECB2F3E927965CAC00BCCA60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2F3E827965CAC00BCCA60 /* SceneDelegate.swift */; };
 		ECB2F3F027965CAD00BCCA60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB2F3EF27965CAD00BCCA60 /* Assets.xcassets */; };
@@ -118,6 +121,10 @@
 		EC6134B22796A11E00DCE48C /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
 		EC6134B92796A63000DCE48C /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		EC69721427AFAF5500085F80 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC69721727AFB8BB00085F80 /* AuthAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAPI.swift; sourceTree = "<group>"; };
+		EC69721927AFB8C300085F80 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		EC69721B27AFB8E600085F80 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		EC69721E27AFBACB00085F80 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
 		ECB2B85C27AD021A00EEEBF4 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
 		ECB2B86027AD210700EEEBF4 /* AuthCommonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCommonView.swift; sourceTree = "<group>"; };
@@ -127,7 +134,6 @@
 		ECB2B86927AD3DB700EEEBF4 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
 		ECB2B86C27AE1BB200EEEBF4 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		ECB2B86E27AE1E5E00EEEBF4 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
-		ECB2B87127AE1E8800EEEBF4 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
 		ECB2F3E327965CAC00BCCA60 /* SeSAC_Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSAC_Friends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB2F3E627965CAC00BCCA60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECB2F3E827965CAC00BCCA60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -424,6 +430,7 @@
 			children = (
 				EC4D53B6279E8E0C009D5E71 /* Color.swift */,
 				EC4D53B8279E8E16009D5E71 /* Image.swift */,
+				EC69721B27AFB8E600085F80 /* URLs.swift */,
 			);
 			path = NameSpace;
 			sourceTree = "<group>";
@@ -484,16 +491,9 @@
 		EC6134A42796608100DCE48C /* DTO */ = {
 			isa = PBXGroup;
 			children = (
-				EC6134A52796608A00DCE48C /* APIModel */,
+				EC69721D27AFBA7200085F80 /* APIModel */,
 			);
 			path = DTO;
-			sourceTree = "<group>";
-		};
-		EC6134A52796608A00DCE48C /* APIModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = APIModel;
 			sourceTree = "<group>";
 		};
 		EC6134A6279660AB00DCE48C /* Presentation */ = {
@@ -590,10 +590,28 @@
 		EC6134B1279661BA00DCE48C /* APIService */ = {
 			isa = PBXGroup;
 			children = (
+				EC69721627AFB89600085F80 /* AuthAPI */,
 				ECB6A6E727A0482B00E55E2C /* NetworkService.swift */,
 				ECB6A6E927A0484200E55E2C /* GenericResponse.swift */,
 			);
 			path = APIService;
+			sourceTree = "<group>";
+		};
+		EC69721627AFB89600085F80 /* AuthAPI */ = {
+			isa = PBXGroup;
+			children = (
+				EC69721727AFB8BB00085F80 /* AuthAPI.swift */,
+				EC69721927AFB8C300085F80 /* AuthService.swift */,
+			);
+			path = AuthAPI;
+			sourceTree = "<group>";
+		};
+		EC69721D27AFBA7200085F80 /* APIModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC69721E27AFBACB00085F80 /* AuthModel.swift */,
+			);
+			path = APIModel;
 			sourceTree = "<group>";
 		};
 		ECB2B86B27AE1B9600EEEBF4 /* Helper */ = {
@@ -608,7 +626,6 @@
 			isa = PBXGroup;
 			children = (
 				ECB2B86027AD210700EEEBF4 /* AuthCommonView.swift */,
-				ECB2B87127AE1E8800EEEBF4 /* AuthModel.swift */,
 				ECB2B86E27AE1E5E00EEEBF4 /* AuthViewModel.swift */,
 			);
 			path = Common;
@@ -785,6 +802,7 @@
 				EC455F0F27AA60EB005E124D /* SeSacTitleView.swift in Sources */,
 				EC455F0527AA5498005E124D /* UserInfoTableViewCell.swift in Sources */,
 				EC455F2427ABB700005E124D /* CharacterCollectionViewCell.swift in Sources */,
+				EC69721F27AFBACB00085F80 /* AuthModel.swift in Sources */,
 				EC455F0027AA5479005E124D /* UserTableViewCell.swift in Sources */,
 				EC455F1127AA611F005E124D /* SeSacReviewView.swift in Sources */,
 				EC4D53C9279E99CF009D5E71 /* BirthViewController.swift in Sources */,
@@ -793,8 +811,8 @@
 				ECB2B86627AD2C6700EEEBF4 /* MessageView.swift in Sources */,
 				ECB6A6F427A09E5700E55E2C /* TabBarController.swift in Sources */,
 				EC6134B42796A11E00DCE48C /* PhoneViewController.swift in Sources */,
+				EC69721827AFB8BB00085F80 /* AuthAPI.swift in Sources */,
 				ECB6A6F227A09E4E00E55E2C /* TabBarItem.swift in Sources */,
-				ECB2B87227AE1E8800EEEBF4 /* AuthModel.swift in Sources */,
 				EC455ECD27A8E9D5005E124D /* informationTableViewCell.swift in Sources */,
 				ECB2F3E927965CAC00BCCA60 /* SceneDelegate.swift in Sources */,
 				EC455F0727AA54C3005E124D /* WithdrawlTableViewCell.swift in Sources */,
@@ -803,9 +821,11 @@
 				EC455EE927A91B5B005E124D /* PagerTab.swift in Sources */,
 				ECB2B86127AD210700EEEBF4 /* AuthCommonView.swift in Sources */,
 				ECB6A6EA27A0484200E55E2C /* GenericResponse.swift in Sources */,
+				EC69721A27AFB8C300085F80 /* AuthService.swift in Sources */,
 				EC455F0A27AA57E1005E124D /* ProfileImageView.swift in Sources */,
 				EC455F1A27ABB23C005E124D /* SeSacCharacterViewController.swift in Sources */,
 				EC455EEB27A91C51005E124D /* NearSeSacViewController.swift in Sources */,
+				EC69721C27AFB8E600085F80 /* URLs.swift in Sources */,
 				ECB2B86827AD3D1700EEEBF4 /* BirthView.swift in Sources */,
 				EC455F1827ABAB00005E124D /* ShopView.swift in Sources */,
 				EC4D53D1279E99F4009D5E71 /* GenderViewController.swift in Sources */,

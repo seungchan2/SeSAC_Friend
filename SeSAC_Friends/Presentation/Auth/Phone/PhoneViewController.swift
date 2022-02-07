@@ -10,7 +10,7 @@ import UIKit
 final class PhoneViewController: BaseViewController {
     
     // Singleton Pattern
-    var auth = Auth.shared
+    var auth = AuthViewModel.shared
     // 변환된 전화번호 값을 저장하는 변수
     var userPhoneNumber = String()
     
@@ -58,7 +58,7 @@ final class PhoneViewController: BaseViewController {
     }
     
     @objc func touchConfirmButton() {
-        auth.phoneNumber = userPhoneNumber
+        auth.phoneNumber.value = userPhoneNumber
         navigationController?.pushViewController(MessageViewController.instanceFromNib(), animated: true)
      }
     

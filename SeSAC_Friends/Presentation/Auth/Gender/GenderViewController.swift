@@ -65,4 +65,25 @@ final class GenderViewController: BaseViewController {
             break
         }
     }
+    
+    @IBAction func touchConfirmButton(_ sender: UIButton) {
+        AuthViewModel.shared.postSignUp { response in
+            switch response {
+            case .success(_):
+                print("success")
+            case .alreadyUser(_):
+                print("")
+            case .unableNickname(_):
+                print("1")
+            case .firebaseTokenErr(_):
+                print("1")
+            case .serverErr:
+                print("1")
+            case .clientErr:
+                print("1")
+            case .pathErr:
+                print("path")
+            }
+        }
+    }
 }
