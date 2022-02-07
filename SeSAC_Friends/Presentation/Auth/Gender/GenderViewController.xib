@@ -93,6 +93,9 @@
                     <state key="normal" title="다음">
                         <color key="titleColor" name="sesacGray3"/>
                     </state>
+                    <connections>
+                        <action selector="touchConfirmButton:" destination="-1" eventType="touchUpInside" id="bPe-Kz-wzx"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AbS-S8-280">
                     <rect key="frame" x="19" y="57" width="24" height="24"/>

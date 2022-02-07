@@ -44,7 +44,7 @@ class ButtonStyle: UIButton {
         case .inactive:
             backgroundColor = Color.sesacGray6
             setTitleColor(Color.sesacGray3, for: .normal)
-            isEnabled = false
+            isEnabled = true
         case .active:
             backgroundColor = Color.sesacGreen
             setTitleColor(Color.sesacWhite, for: .normal)

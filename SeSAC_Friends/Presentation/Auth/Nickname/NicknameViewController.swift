@@ -10,7 +10,7 @@ import UIKit
 final class NicknameViewController: BaseViewController {
 
     let nicknameView = AuthCommonView()
-    var auth = Auth.shared
+    var auth = AuthViewModel.shared
     var userNickname = String()
     
     override func loadView() {
@@ -64,7 +64,7 @@ final class NicknameViewController: BaseViewController {
      }
     
     @objc func touchConfirmButton() {
-        auth.nickname = userNickname
+        auth.nickname.value = userNickname
         navigationController?.pushViewController(BirthViewController.instanceFromNib(), animated: true)
      }
     

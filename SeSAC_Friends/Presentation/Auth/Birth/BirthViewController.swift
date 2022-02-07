@@ -10,7 +10,7 @@ import UIKit
 final class BirthViewController: BaseViewController {
     
     let birthView = BirthView()
-    var auth = Auth.shared
+    var auth = AuthViewModel.shared
     var userBirth = String()
     
     override func loadView() {
@@ -20,6 +20,7 @@ final class BirthViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setDatePickerView()
+        birthView.confirmButton.isEnabled = true
     }
     
     override func style() {
@@ -44,7 +45,6 @@ final class BirthViewController: BaseViewController {
         let indexStart = koDate.startIndex
         let indexEnd = koDate.endIndex
         let yearIndex = koDate.index(indexStart, offsetBy: 4)
-        
         let yearText = koDate[indexStart ..< yearIndex]
         birthView.yearView.dayLabel.text = "\(yearText)"
         
@@ -66,7 +66,7 @@ final class BirthViewController: BaseViewController {
     }
     
     @objc func touchConfirmButton() {
-        auth.birth = userBirth
+        auth.birth.value = userBirth
         navigationController?.pushViewController(EmailViewController.instanceFromNib(), animated: true)
     }
     
