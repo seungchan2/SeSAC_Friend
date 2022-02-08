@@ -72,7 +72,6 @@ extension SeSacBackgroundViewController: UICollectionViewDataSource {
         cell.priceButton.backgroundColor = listForBackground[indexPath.row].backgroundColor
         cell.priceButton.setTitleColor(listForBackground[indexPath.row].buttonTextColor, for: .normal)
 
-        
         return cell
     }
 }

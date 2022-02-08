@@ -14,8 +14,7 @@
 		EC455EE927A91B5B005E124D /* PagerTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455EE827A91B5B005E124D /* PagerTab.swift */; };
 		EC455EEB27A91C51005E124D /* NearSeSacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455EEA27A91C51005E124D /* NearSeSacViewController.swift */; };
 		EC455EED27A91C5F005E124D /* GetRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455EEC27A91C5F005E124D /* GetRequestViewController.swift */; };
-		EC455EF027A91C86005E124D /* FindSeSacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455EEE27A91C86005E124D /* FindSeSacViewController.swift */; };
-		EC455EF127A91C86005E124D /* FindSeSacViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC455EEF27A91C86005E124D /* FindSeSacViewController.xib */; };
+		EC455EF027A91C86005E124D /* FindSeSACViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455EEE27A91C86005E124D /* FindSeSACViewController.swift */; };
 		EC455EF627AA532B005E124D /* ManagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455EF527AA532B005E124D /* ManagementViewController.swift */; };
 		EC455EF827AA536A005E124D /* ManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455EF727AA536A005E124D /* ManagementView.swift */; };
 		EC455EFE27AA5464005E124D /* ProfileImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC455EFD27AA5464005E124D /* ProfileImageTableViewCell.swift */; };
@@ -54,7 +53,13 @@
 		EC69721A27AFB8C300085F80 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69721927AFB8C300085F80 /* AuthService.swift */; };
 		EC69721C27AFB8E600085F80 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69721B27AFB8E600085F80 /* URLs.swift */; };
 		EC69721F27AFBACB00085F80 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69721E27AFBACB00085F80 /* AuthModel.swift */; };
-		ECB2B85D27AD021A00EEEBF4 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B85C27AD021A00EEEBF4 /* ButtonStyle.swift */; };
+		EC69722127B2166C00085F80 /* FindSeSACView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69722027B2166C00085F80 /* FindSeSACView.swift */; };
+		EC69722327B2181C00085F80 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69722227B2181C00085F80 /* HomeViewController.swift */; };
+		EC69722527B218D300085F80 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69722427B218D200085F80 /* HomeView.swift */; };
+		EC69722727B2796000085F80 /* StatusButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69722627B2796000085F80 /* StatusButtonStyle.swift */; };
+		EC69722927B28B6600085F80 /* GenderButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69722827B28B6600085F80 /* GenderButtonStyle.swift */; };
+		EC69722B27B2923600085F80 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69722A27B2923600085F80 /* UIView + Extension.swift */; };
+		ECB2B85D27AD021A00EEEBF4 /* AuthButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B85C27AD021A00EEEBF4 /* AuthButtonStyle.swift */; };
 		ECB2B85F27AD022F00EEEBF4 /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */; };
 		ECB2B86127AD210700EEEBF4 /* AuthCommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86027AD210700EEEBF4 /* AuthCommonView.swift */; };
 		ECB2B86327AD222400EEEBF4 /* Representable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86227AD222400EEEBF4 /* Representable.swift */; };
@@ -72,8 +77,6 @@
 		ECB6A6EF27A049D700E55E2C /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = ECB6A6EE27A049D700E55E2C /* Moya */; };
 		ECB6A6F227A09E4E00E55E2C /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A6F127A09E4E00E55E2C /* TabBarItem.swift */; };
 		ECB6A6F427A09E5700E55E2C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A6F327A09E5700E55E2C /* TabBarController.swift */; };
-		ECB6A6F827A0A0EA00E55E2C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A6F627A0A0EA00E55E2C /* HomeViewController.swift */; };
-		ECB6A6F927A0A0EA00E55E2C /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB6A6F727A0A0EA00E55E2C /* HomeViewController.xib */; };
 		ECB6A70227A0A11700E55E2C /* SeSacFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A70027A0A11700E55E2C /* SeSacFriendViewController.swift */; };
 		ECB6A70327A0A11700E55E2C /* SeSacFriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB6A70127A0A11700E55E2C /* SeSacFriendViewController.xib */; };
 		ECB6A70B27A0A1E600E55E2C /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6A70927A0A1E600E55E2C /* ShopViewController.swift */; };
@@ -89,8 +92,7 @@
 		EC455EE827A91B5B005E124D /* PagerTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerTab.swift; sourceTree = "<group>"; };
 		EC455EEA27A91C51005E124D /* NearSeSacViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearSeSacViewController.swift; sourceTree = "<group>"; };
 		EC455EEC27A91C5F005E124D /* GetRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRequestViewController.swift; sourceTree = "<group>"; };
-		EC455EEE27A91C86005E124D /* FindSeSacViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindSeSacViewController.swift; sourceTree = "<group>"; };
-		EC455EEF27A91C86005E124D /* FindSeSacViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FindSeSacViewController.xib; sourceTree = "<group>"; };
+		EC455EEE27A91C86005E124D /* FindSeSACViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindSeSACViewController.swift; sourceTree = "<group>"; };
 		EC455EF527AA532B005E124D /* ManagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementViewController.swift; sourceTree = "<group>"; };
 		EC455EF727AA536A005E124D /* ManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementView.swift; sourceTree = "<group>"; };
 		EC455EFD27AA5464005E124D /* ProfileImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageTableViewCell.swift; sourceTree = "<group>"; };
@@ -125,7 +127,13 @@
 		EC69721927AFB8C300085F80 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		EC69721B27AFB8E600085F80 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
 		EC69721E27AFBACB00085F80 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
-		ECB2B85C27AD021A00EEEBF4 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		EC69722027B2166C00085F80 /* FindSeSACView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindSeSACView.swift; sourceTree = "<group>"; };
+		EC69722227B2181C00085F80 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EC69722427B218D200085F80 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EC69722627B2796000085F80 /* StatusButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusButtonStyle.swift; sourceTree = "<group>"; };
+		EC69722827B28B6600085F80 /* GenderButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GenderButtonStyle.swift; path = ../../../../../Desktop/GenderButtonStyle.swift; sourceTree = "<group>"; };
+		EC69722A27B2923600085F80 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		ECB2B85C27AD021A00EEEBF4 /* AuthButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButtonStyle.swift; sourceTree = "<group>"; };
 		ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
 		ECB2B86027AD210700EEEBF4 /* AuthCommonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCommonView.swift; sourceTree = "<group>"; };
 		ECB2B86227AD222400EEEBF4 /* Representable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Representable.swift; sourceTree = "<group>"; };
@@ -144,8 +152,6 @@
 		ECB6A6E927A0484200E55E2C /* GenericResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericResponse.swift; sourceTree = "<group>"; };
 		ECB6A6F127A09E4E00E55E2C /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		ECB6A6F327A09E5700E55E2C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		ECB6A6F627A0A0EA00E55E2C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		ECB6A6F727A0A0EA00E55E2C /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		ECB6A70027A0A11700E55E2C /* SeSacFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSacFriendViewController.swift; sourceTree = "<group>"; };
 		ECB6A70127A0A11700E55E2C /* SeSacFriendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeSacFriendViewController.xib; sourceTree = "<group>"; };
 		ECB6A70927A0A1E600E55E2C /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
@@ -231,15 +237,15 @@
 			path = PagerTab;
 			sourceTree = "<group>";
 		};
-		EC455EF227AA4EFD005E124D /* FindSeSac */ = {
+		EC455EF227AA4EFD005E124D /* FindSeSAC */ = {
 			isa = PBXGroup;
 			children = (
-				EC455EEE27A91C86005E124D /* FindSeSacViewController.swift */,
-				EC455EEF27A91C86005E124D /* FindSeSacViewController.xib */,
+				EC455EEE27A91C86005E124D /* FindSeSACViewController.swift */,
+				EC69722027B2166C00085F80 /* FindSeSACView.swift */,
 				EC455EF327AA4F06005E124D /* FirstTab */,
 				EC455EF427AA4F0C005E124D /* SecondTab */,
 			);
-			path = FindSeSac;
+			path = FindSeSAC;
 			sourceTree = "<group>";
 		};
 		EC455EF327AA4F06005E124D /* FirstTab */ = {
@@ -466,6 +472,7 @@
 		EC6134A02796604E00DCE48C /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				EC69722A27B2923600085F80 /* UIView + Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -473,7 +480,9 @@
 		EC6134A12796605500DCE48C /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				ECB2B85C27AD021A00EEEBF4 /* ButtonStyle.swift */,
+				ECB2B85C27AD021A00EEEBF4 /* AuthButtonStyle.swift */,
+				EC69722627B2796000085F80 /* StatusButtonStyle.swift */,
+				EC69722827B28B6600085F80 /* GenderButtonStyle.swift */,
 				ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */,
 				ECB2B86227AD222400EEEBF4 /* Representable.swift */,
 			);
@@ -674,9 +683,9 @@
 		ECB6A6F527A0A0DB00E55E2C /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				EC455EF227AA4EFD005E124D /* FindSeSac */,
-				ECB6A6F627A0A0EA00E55E2C /* HomeViewController.swift */,
-				ECB6A6F727A0A0EA00E55E2C /* HomeViewController.xib */,
+				EC455EF227AA4EFD005E124D /* FindSeSAC */,
+				EC69722227B2181C00085F80 /* HomeViewController.swift */,
+				EC69722427B218D200085F80 /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -776,14 +785,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECB2F3F327965CAD00BCCA60 /* LaunchScreen.storyboard in Resources */,
-				EC455EF127A91C86005E124D /* FindSeSacViewController.xib in Resources */,
 				EC69721527AFAF5500085F80 /* GoogleService-Info.plist in Resources */,
 				EC4D53B4279E8D11009D5E71 /* Color.xcassets in Resources */,
 				ECB2F3F027965CAD00BCCA60 /* Assets.xcassets in Resources */,
 				EC4D53D4279F5698009D5E71 /* Image.xcassets in Resources */,
 				EC4D53D2279E99F4009D5E71 /* GenderViewController.xib in Resources */,
 				ECB6A70327A0A11700E55E2C /* SeSacFriendViewController.xib in Resources */,
-				ECB6A6F927A0A0EA00E55E2C /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -796,6 +803,7 @@
 			files = (
 				ECB2B86D27AE1BB200EEEBF4 /* Observable.swift in Sources */,
 				EC4D53B9279E8E16009D5E71 /* Image.swift in Sources */,
+				EC69722327B2181C00085F80 /* HomeViewController.swift in Sources */,
 				ECB2F3E727965CAC00BCCA60 /* AppDelegate.swift in Sources */,
 				EC455ECF27A8EA0D005E124D /* informationHeaderView.swift in Sources */,
 				EC455EED27A91C5F005E124D /* GetRequestViewController.swift in Sources */,
@@ -807,7 +815,7 @@
 				EC455F1127AA611F005E124D /* SeSacReviewView.swift in Sources */,
 				EC4D53C9279E99CF009D5E71 /* BirthViewController.swift in Sources */,
 				ECB2B86327AD222400EEEBF4 /* Representable.swift in Sources */,
-				EC455EF027A91C86005E124D /* FindSeSacViewController.swift in Sources */,
+				EC455EF027A91C86005E124D /* FindSeSACViewController.swift in Sources */,
 				ECB2B86627AD2C6700EEEBF4 /* MessageView.swift in Sources */,
 				ECB6A6F427A09E5700E55E2C /* TabBarController.swift in Sources */,
 				EC6134B42796A11E00DCE48C /* PhoneViewController.swift in Sources */,
@@ -817,6 +825,7 @@
 				ECB2F3E927965CAC00BCCA60 /* SceneDelegate.swift in Sources */,
 				EC455F0727AA54C3005E124D /* WithdrawlTableViewCell.swift in Sources */,
 				EC4D53C5279E9741009D5E71 /* NicknameViewController.swift in Sources */,
+				EC69722927B28B6600085F80 /* GenderButtonStyle.swift in Sources */,
 				EC455F2227ABB5E7005E124D /* SeSacCharacterView.swift in Sources */,
 				EC455EE927A91B5B005E124D /* PagerTab.swift in Sources */,
 				ECB2B86127AD210700EEEBF4 /* AuthCommonView.swift in Sources */,
@@ -833,18 +842,21 @@
 				ECB6A70B27A0A1E600E55E2C /* ShopViewController.swift in Sources */,
 				EC6134AA2796610100DCE48C /* BaseViewController.swift in Sources */,
 				EC455EFE27AA5464005E124D /* ProfileImageTableViewCell.swift in Sources */,
-				ECB6A6F827A0A0EA00E55E2C /* HomeViewController.swift in Sources */,
 				ECB2B85F27AD022F00EEEBF4 /* TextFieldStyle.swift in Sources */,
+				EC69722527B218D300085F80 /* HomeView.swift in Sources */,
 				EC455EF627AA532B005E124D /* ManagementViewController.swift in Sources */,
 				EC6134BB2796A63000DCE48C /* MessageViewController.swift in Sources */,
-				ECB2B85D27AD021A00EEEBF4 /* ButtonStyle.swift in Sources */,
+				ECB2B85D27AD021A00EEEBF4 /* AuthButtonStyle.swift in Sources */,
 				EC455F0C27AA5B39005E124D /* UserView.swift in Sources */,
 				EC455ECB27A8E827005E124D /* informationView.swift in Sources */,
 				ECB6A70227A0A11700E55E2C /* SeSacFriendViewController.swift in Sources */,
+				EC69722727B2796000085F80 /* StatusButtonStyle.swift in Sources */,
+				EC69722127B2166C00085F80 /* FindSeSACView.swift in Sources */,
 				ECB2B86F27AE1E5E00EEEBF4 /* AuthViewModel.swift in Sources */,
 				EC455F1C27ABB24E005E124D /* SeSacBackgroundViewController.swift in Sources */,
 				EC455EC927A8E7D0005E124D /* InformationViewController.swift in Sources */,
 				EC455F2027ABB5CA005E124D /* SeSacBackgroundView.swift in Sources */,
+				EC69722B27B2923600085F80 /* UIView + Extension.swift in Sources */,
 				EC4D53B7279E8E0C009D5E71 /* Color.swift in Sources */,
 				EC455F3127ABC8D7005E124D /* BackgroundCollectionViewCell.swift in Sources */,
 				EC4D53CD279E99E3009D5E71 /* EmailViewController.swift in Sources */,

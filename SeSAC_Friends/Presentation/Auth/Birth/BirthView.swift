@@ -45,7 +45,7 @@ class BirthView: UIView, Representable {
         $0.dayLabel.text = "\(day)"
     }
     
-    let confirmButton = ButtonStyle(frame: CGRect(), mode: .inactive, text: "다음")
+    let confirmButton = AuthButtonStyle(frame: CGRect(), mode: .inactive, text: "다음")
     
     let datePicker = UIDatePicker()
     

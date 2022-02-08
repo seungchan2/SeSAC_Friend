@@ -35,7 +35,7 @@ class AuthCommonView: UIView, Representable {
         $0.textField.placeholder = "휴대폰 번호(-없이 숫자만 입력)"
     }
     
-    let confirmButton = ButtonStyle(frame: CGRect(), mode: .inactive, text: "다음")
+    let confirmButton = AuthButtonStyle(frame: CGRect(), mode: .inactive, text: "다음")
     
     override init(frame: CGRect) {
         super.init(frame: frame)
