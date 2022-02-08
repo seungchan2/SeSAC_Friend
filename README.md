@@ -28,10 +28,10 @@
 - 카드뷰가 펼쳐지는 부분에서 TableView Self-Sizing이 되어야 하는데 후순위로 밀어두고 작업
 
 2월 5일, 6일 해야 할 일
-- [ ] Firebase / AppleConnect 연결 (Firebase 연결 완료) -> Apple은 토요일
+- [x] Firebase / AppleConnect 연결 (Firebase 연결 완료) -> Apple은 토요일
 - [x] 회원가입 UI 재구현 -> 금요일
 - [x] 회원가입 로직 구현 -> 토요일
-- [ ] 회원가입 서버 통신 -> 일요일
+- [x] 회원가입 서버 통신 -> 일요일
 - [x] MVVM 공부
 - [ ] 위에 모든 걸 끝낸다면 Home UI구현 예정
 
