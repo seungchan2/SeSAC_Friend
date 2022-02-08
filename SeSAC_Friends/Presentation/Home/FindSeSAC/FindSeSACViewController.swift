@@ -7,11 +7,14 @@
 
 import UIKit
 
-final class FindSeSacViewController: BaseViewController {
+final class FindSeSACViewController: BaseViewController {
     
-    @IBOutlet weak var pagerTab: PagerTab!
-    
+    let findSeSACView = FindSeSACView()
     var viewControllers: [PageComponentProtocol] = [NearSeSacViewController(), GetRequestViewController()]
+    
+    override func loadView() {
+        view = findSeSACView
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,9 +22,9 @@ final class FindSeSacViewController: BaseViewController {
     }
 }
 
-extension FindSeSacViewController {
+extension FindSeSACViewController {
     private func setContainerViewController() {
         let style = PagerTab.Style.default
-        pagerTab.setup(self, viewControllers: viewControllers, style: style)
+        findSeSACView.pagerTab.setup(self, viewControllers: viewControllers, style: style)
     }
 }

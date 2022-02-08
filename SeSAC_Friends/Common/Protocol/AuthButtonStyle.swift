@@ -15,7 +15,7 @@ enum ButtonMode: Int {
     case active
 }
 
-class ButtonStyle: UIButton {
+class AuthButtonStyle: UIButton {
 
     var mode: ButtonMode
     var text: String

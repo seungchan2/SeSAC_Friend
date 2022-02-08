@@ -41,4 +41,8 @@ public enum Image {
     public static let sesacLatinBackground = UIImage(named: "sesacLatinBackground")!
     public static let sesacHomeBackground = UIImage(named: "sesacHomeBackground")!
     public static let sesacMusicBackground = UIImage(named: "sesacMusicBackground")!
+    public static let sesacSearch = UIImage(named: "sesacSearch")!
+    public static let sesacLoading = UIImage(named: "sesacLoading")!
+    public static let sesacMessage = UIImage(named: "sesacMessage")!
+    public static let sesacGPS = UIImage(named: "sesacGPS")!
 }

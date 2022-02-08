@@ -40,9 +40,8 @@ class MessageView: UIView, Representable {
         $0.textField.font = .systemFont(ofSize: 14)
     }
     
-    let timerButton = ButtonStyle(frame: CGRect(), mode: .active, text: "재전송")
-    
-    let confirmButton = ButtonStyle(frame: CGRect(), mode: .inactive, text: "인증하고 시작하기")
+    let timerButton = AuthButtonStyle(frame: CGRect(), mode: .active, text: "재전송")
+    let confirmButton = AuthButtonStyle(frame: CGRect(), mode: .inactive, text: "인증하고 시작하기")
     
     override init(frame: CGRect) {
         super.init(frame: frame)
