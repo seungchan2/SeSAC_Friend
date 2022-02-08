@@ -35,4 +35,10 @@ public enum Image {
     public static let sesacNormalFace = UIImage(named: "sesacNormalFace")!
     public static let sesacNightBackground = UIImage(named: "sesacNightBackground")!
     public static let sesacParkBackground = UIImage(named: "sesacParkBackground")!
+    public static let sesacNightWalkBackground = UIImage(named: "sesacNightWalkBackground")!
+    public static let sesacWalkBackground = UIImage(named: "sesacWalkBackground")!
+    public static let sesacStageBackground = UIImage(named: "sesacStageBackground")!
+    public static let sesacLatinBackground = UIImage(named: "sesacLatinBackground")!
+    public static let sesacHomeBackground = UIImage(named: "sesacHomeBackground")!
+    public static let sesacMusicBackground = UIImage(named: "sesacMusicBackground")!
 }

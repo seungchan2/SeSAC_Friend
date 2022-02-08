@@ -22,7 +22,7 @@ final class BackgroundCollectionViewCell: UICollectionViewCell {
     
     let explainLabel = UILabel().then {
         $0.font = .systemFont(ofSize: 14)
-        $0.numberOfLines = 2
+        $0.numberOfLines = 0
     }
     
     let priceButton = UIButton().then {
