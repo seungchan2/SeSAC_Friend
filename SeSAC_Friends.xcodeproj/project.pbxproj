@@ -59,6 +59,7 @@
 		EC69722727B2796000085F80 /* StatusButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69722627B2796000085F80 /* StatusButtonStyle.swift */; };
 		EC69722927B28B6600085F80 /* GenderButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69722827B28B6600085F80 /* GenderButtonStyle.swift */; };
 		EC69722B27B2923600085F80 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69722A27B2923600085F80 /* UIView + Extension.swift */; };
+		EC69722D27B36D2700085F80 /* AnnotationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69722C27B36D2600085F80 /* AnnotationStyle.swift */; };
 		ECB2B85D27AD021A00EEEBF4 /* AuthButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B85C27AD021A00EEEBF4 /* AuthButtonStyle.swift */; };
 		ECB2B85F27AD022F00EEEBF4 /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */; };
 		ECB2B86127AD210700EEEBF4 /* AuthCommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86027AD210700EEEBF4 /* AuthCommonView.swift */; };
@@ -133,6 +134,7 @@
 		EC69722627B2796000085F80 /* StatusButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusButtonStyle.swift; sourceTree = "<group>"; };
 		EC69722827B28B6600085F80 /* GenderButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GenderButtonStyle.swift; path = ../../../../../Desktop/GenderButtonStyle.swift; sourceTree = "<group>"; };
 		EC69722A27B2923600085F80 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		EC69722C27B36D2600085F80 /* AnnotationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationStyle.swift; sourceTree = "<group>"; };
 		ECB2B85C27AD021A00EEEBF4 /* AuthButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButtonStyle.swift; sourceTree = "<group>"; };
 		ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
 		ECB2B86027AD210700EEEBF4 /* AuthCommonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCommonView.swift; sourceTree = "<group>"; };
@@ -485,6 +487,7 @@
 				EC69722827B28B6600085F80 /* GenderButtonStyle.swift */,
 				ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */,
 				ECB2B86227AD222400EEEBF4 /* Representable.swift */,
+				EC69722C27B36D2600085F80 /* AnnotationStyle.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -815,6 +818,7 @@
 				EC455F1127AA611F005E124D /* SeSacReviewView.swift in Sources */,
 				EC4D53C9279E99CF009D5E71 /* BirthViewController.swift in Sources */,
 				ECB2B86327AD222400EEEBF4 /* Representable.swift in Sources */,
+				EC69722D27B36D2700085F80 /* AnnotationStyle.swift in Sources */,
 				EC455EF027A91C86005E124D /* FindSeSACViewController.swift in Sources */,
 				ECB2B86627AD2C6700EEEBF4 /* MessageView.swift in Sources */,
 				ECB6A6F427A09E5700E55E2C /* TabBarController.swift in Sources */,

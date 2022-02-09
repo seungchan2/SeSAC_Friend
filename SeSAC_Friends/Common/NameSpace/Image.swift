@@ -45,4 +45,9 @@ public enum Image {
     public static let sesacLoading = UIImage(named: "sesacLoading")!
     public static let sesacMessage = UIImage(named: "sesacMessage")!
     public static let sesacGPS = UIImage(named: "sesacGPS")!
+    public static let sesacAnnotationPurple = UIImage(named: "sesacAnnotationPurple")!
+    public static let sesacAnnotationGreen = UIImage(named: "sesacAnnotationGreen")!
+    public static let sesacAnnotationYellow = UIImage(named: "sesacAnnotationYellow")!
+    public static let sesacAnnotationLightGreen = UIImage(named: "sesacAnnotationLightGreen")!
+    public static let sesacMapMarker = UIImage(named: "sesacMapMarker")!
 }
