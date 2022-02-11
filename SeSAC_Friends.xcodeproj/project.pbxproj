@@ -60,6 +60,10 @@
 		EC69722927B28B6600085F80 /* GenderButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69722827B28B6600085F80 /* GenderButtonStyle.swift */; };
 		EC69722B27B2923600085F80 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69722A27B2923600085F80 /* UIView + Extension.swift */; };
 		EC69722D27B36D2700085F80 /* AnnotationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69722C27B36D2600085F80 /* AnnotationStyle.swift */; };
+		EC69722F27B4DE5500085F80 /* HobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69722E27B4DE5500085F80 /* HobbyViewController.swift */; };
+		EC69723327B4E00400085F80 /* HobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69723227B4E00400085F80 /* HobbyView.swift */; };
+		EC69723527B5114600085F80 /* HobbyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69723427B5114600085F80 /* HobbyCollectionViewCell.swift */; };
+		EC69723727B5667F00085F80 /* HobbyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69723627B5667F00085F80 /* HobbyHeaderView.swift */; };
 		ECB2B85D27AD021A00EEEBF4 /* AuthButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B85C27AD021A00EEEBF4 /* AuthButtonStyle.swift */; };
 		ECB2B85F27AD022F00EEEBF4 /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */; };
 		ECB2B86127AD210700EEEBF4 /* AuthCommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86027AD210700EEEBF4 /* AuthCommonView.swift */; };
@@ -135,6 +139,10 @@
 		EC69722827B28B6600085F80 /* GenderButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GenderButtonStyle.swift; path = ../../../../../Desktop/GenderButtonStyle.swift; sourceTree = "<group>"; };
 		EC69722A27B2923600085F80 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
 		EC69722C27B36D2600085F80 /* AnnotationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationStyle.swift; sourceTree = "<group>"; };
+		EC69722E27B4DE5500085F80 /* HobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyViewController.swift; sourceTree = "<group>"; };
+		EC69723227B4E00400085F80 /* HobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyView.swift; sourceTree = "<group>"; };
+		EC69723427B5114600085F80 /* HobbyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC69723627B5667F00085F80 /* HobbyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyHeaderView.swift; sourceTree = "<group>"; };
 		ECB2B85C27AD021A00EEEBF4 /* AuthButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButtonStyle.swift; sourceTree = "<group>"; };
 		ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
 		ECB2B86027AD210700EEEBF4 /* AuthCommonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCommonView.swift; sourceTree = "<group>"; };
@@ -626,6 +634,26 @@
 			path = APIModel;
 			sourceTree = "<group>";
 		};
+		EC69723027B4DFD600085F80 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				EC69722227B2181C00085F80 /* HomeViewController.swift */,
+				EC69722427B218D200085F80 /* HomeView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		EC69723127B4DFE000085F80 /* Hobby */ = {
+			isa = PBXGroup;
+			children = (
+				EC69722E27B4DE5500085F80 /* HobbyViewController.swift */,
+				EC69723227B4E00400085F80 /* HobbyView.swift */,
+				EC69723427B5114600085F80 /* HobbyCollectionViewCell.swift */,
+				EC69723627B5667F00085F80 /* HobbyHeaderView.swift */,
+			);
+			path = Hobby;
+			sourceTree = "<group>";
+		};
 		ECB2B86B27AE1B9600EEEBF4 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
@@ -686,9 +714,9 @@
 		ECB6A6F527A0A0DB00E55E2C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				EC69723127B4DFE000085F80 /* Hobby */,
+				EC69723027B4DFD600085F80 /* Map */,
 				EC455EF227AA4EFD005E124D /* FindSeSAC */,
-				EC69722227B2181C00085F80 /* HomeViewController.swift */,
-				EC69722427B218D200085F80 /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -829,11 +857,13 @@
 				ECB2F3E927965CAC00BCCA60 /* SceneDelegate.swift in Sources */,
 				EC455F0727AA54C3005E124D /* WithdrawlTableViewCell.swift in Sources */,
 				EC4D53C5279E9741009D5E71 /* NicknameViewController.swift in Sources */,
+				EC69723527B5114600085F80 /* HobbyCollectionViewCell.swift in Sources */,
 				EC69722927B28B6600085F80 /* GenderButtonStyle.swift in Sources */,
 				EC455F2227ABB5E7005E124D /* SeSacCharacterView.swift in Sources */,
 				EC455EE927A91B5B005E124D /* PagerTab.swift in Sources */,
 				ECB2B86127AD210700EEEBF4 /* AuthCommonView.swift in Sources */,
 				ECB6A6EA27A0484200E55E2C /* GenericResponse.swift in Sources */,
+				EC69722F27B4DE5500085F80 /* HobbyViewController.swift in Sources */,
 				EC69721A27AFB8C300085F80 /* AuthService.swift in Sources */,
 				EC455F0A27AA57E1005E124D /* ProfileImageView.swift in Sources */,
 				EC455F1A27ABB23C005E124D /* SeSacCharacterViewController.swift in Sources */,
@@ -848,6 +878,7 @@
 				EC455EFE27AA5464005E124D /* ProfileImageTableViewCell.swift in Sources */,
 				ECB2B85F27AD022F00EEEBF4 /* TextFieldStyle.swift in Sources */,
 				EC69722527B218D300085F80 /* HomeView.swift in Sources */,
+				EC69723727B5667F00085F80 /* HobbyHeaderView.swift in Sources */,
 				EC455EF627AA532B005E124D /* ManagementViewController.swift in Sources */,
 				EC6134BB2796A63000DCE48C /* MessageViewController.swift in Sources */,
 				ECB2B85D27AD021A00EEEBF4 /* AuthButtonStyle.swift in Sources */,
@@ -860,6 +891,7 @@
 				EC455F1C27ABB24E005E124D /* SeSacBackgroundViewController.swift in Sources */,
 				EC455EC927A8E7D0005E124D /* InformationViewController.swift in Sources */,
 				EC455F2027ABB5CA005E124D /* SeSacBackgroundView.swift in Sources */,
+				EC69723327B4E00400085F80 /* HobbyView.swift in Sources */,
 				EC69722B27B2923600085F80 /* UIView + Extension.swift in Sources */,
 				EC4D53B7279E8E0C009D5E71 /* Color.swift in Sources */,
 				EC455F3127ABC8D7005E124D /* BackgroundCollectionViewCell.swift in Sources */,
