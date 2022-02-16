@@ -62,8 +62,10 @@
 		EC69722D27B36D2700085F80 /* AnnotationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69722C27B36D2600085F80 /* AnnotationStyle.swift */; };
 		EC69722F27B4DE5500085F80 /* HobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69722E27B4DE5500085F80 /* HobbyViewController.swift */; };
 		EC69723327B4E00400085F80 /* HobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69723227B4E00400085F80 /* HobbyView.swift */; };
-		EC69723527B5114600085F80 /* HobbyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69723427B5114600085F80 /* HobbyCollectionViewCell.swift */; };
+		EC69723527B5114600085F80 /* NearHobbyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69723427B5114600085F80 /* NearHobbyCollectionViewCell.swift */; };
 		EC69723727B5667F00085F80 /* HobbyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69723627B5667F00085F80 /* HobbyHeaderView.swift */; };
+		EC69723927BCC2E000085F80 /* MyHobbyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69723827BCC2E000085F80 /* MyHobbyCollectionViewCell.swift */; };
+		EC69723B27BCD38000085F80 /* LeftAlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69723A27BCD38000085F80 /* LeftAlignedCollectionViewFlowLayout.swift */; };
 		ECB2B85D27AD021A00EEEBF4 /* AuthButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B85C27AD021A00EEEBF4 /* AuthButtonStyle.swift */; };
 		ECB2B85F27AD022F00EEEBF4 /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */; };
 		ECB2B86127AD210700EEEBF4 /* AuthCommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2B86027AD210700EEEBF4 /* AuthCommonView.swift */; };
@@ -141,8 +143,10 @@
 		EC69722C27B36D2600085F80 /* AnnotationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationStyle.swift; sourceTree = "<group>"; };
 		EC69722E27B4DE5500085F80 /* HobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyViewController.swift; sourceTree = "<group>"; };
 		EC69723227B4E00400085F80 /* HobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyView.swift; sourceTree = "<group>"; };
-		EC69723427B5114600085F80 /* HobbyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC69723427B5114600085F80 /* NearHobbyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearHobbyCollectionViewCell.swift; sourceTree = "<group>"; };
 		EC69723627B5667F00085F80 /* HobbyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyHeaderView.swift; sourceTree = "<group>"; };
+		EC69723827BCC2E000085F80 /* MyHobbyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHobbyCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC69723A27BCD38000085F80 /* LeftAlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftAlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		ECB2B85C27AD021A00EEEBF4 /* AuthButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButtonStyle.swift; sourceTree = "<group>"; };
 		ECB2B85E27AD022F00EEEBF4 /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
 		ECB2B86027AD210700EEEBF4 /* AuthCommonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCommonView.swift; sourceTree = "<group>"; };
@@ -648,8 +652,10 @@
 			children = (
 				EC69722E27B4DE5500085F80 /* HobbyViewController.swift */,
 				EC69723227B4E00400085F80 /* HobbyView.swift */,
-				EC69723427B5114600085F80 /* HobbyCollectionViewCell.swift */,
+				EC69723427B5114600085F80 /* NearHobbyCollectionViewCell.swift */,
 				EC69723627B5667F00085F80 /* HobbyHeaderView.swift */,
+				EC69723827BCC2E000085F80 /* MyHobbyCollectionViewCell.swift */,
+				EC69723A27BCD38000085F80 /* LeftAlignedCollectionViewFlowLayout.swift */,
 			);
 			path = Hobby;
 			sourceTree = "<group>";
@@ -852,12 +858,13 @@
 				ECB6A6F427A09E5700E55E2C /* TabBarController.swift in Sources */,
 				EC6134B42796A11E00DCE48C /* PhoneViewController.swift in Sources */,
 				EC69721827AFB8BB00085F80 /* AuthAPI.swift in Sources */,
+				EC69723B27BCD38000085F80 /* LeftAlignedCollectionViewFlowLayout.swift in Sources */,
 				ECB6A6F227A09E4E00E55E2C /* TabBarItem.swift in Sources */,
 				EC455ECD27A8E9D5005E124D /* informationTableViewCell.swift in Sources */,
 				ECB2F3E927965CAC00BCCA60 /* SceneDelegate.swift in Sources */,
 				EC455F0727AA54C3005E124D /* WithdrawlTableViewCell.swift in Sources */,
 				EC4D53C5279E9741009D5E71 /* NicknameViewController.swift in Sources */,
-				EC69723527B5114600085F80 /* HobbyCollectionViewCell.swift in Sources */,
+				EC69723527B5114600085F80 /* NearHobbyCollectionViewCell.swift in Sources */,
 				EC69722927B28B6600085F80 /* GenderButtonStyle.swift in Sources */,
 				EC455F2227ABB5E7005E124D /* SeSacCharacterView.swift in Sources */,
 				EC455EE927A91B5B005E124D /* PagerTab.swift in Sources */,
@@ -877,6 +884,7 @@
 				EC6134AA2796610100DCE48C /* BaseViewController.swift in Sources */,
 				EC455EFE27AA5464005E124D /* ProfileImageTableViewCell.swift in Sources */,
 				ECB2B85F27AD022F00EEEBF4 /* TextFieldStyle.swift in Sources */,
+				EC69723927BCC2E000085F80 /* MyHobbyCollectionViewCell.swift in Sources */,
 				EC69722527B218D300085F80 /* HomeView.swift in Sources */,
 				EC69723727B5667F00085F80 /* HobbyHeaderView.swift in Sources */,
 				EC455EF627AA532B005E124D /* ManagementViewController.swift in Sources */,
