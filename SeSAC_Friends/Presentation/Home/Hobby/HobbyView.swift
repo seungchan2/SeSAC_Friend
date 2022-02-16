@@ -21,14 +21,17 @@ class HobbyView: UIView {
         $0.searchBarStyle = .minimal
     }
     
-    let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout()).then {
-        $0.register(HobbyCollectionViewCell.self)
-        let layout = UICollectionViewFlowLayout()
-        layout.scrollDirection = .vertical
-        $0.backgroundColor = .white
-        $0.showsVerticalScrollIndicator = false
-        layout.sectionInset = .init(top: 5, left: 16, bottom: 5, right: 16)
+    let collectionView = UICollectionView(frame: .zero, collectionViewLayout: .init()).then {
+        let layout = LeftAlignedCollectionViewFlowLayout()
+        layout.minimumLineSpacing = 8
+        layout.minimumInteritemSpacing = 8
+        layout.sectionInset = UIEdgeInsets(top: 5, left: 2, bottom: 5, right: 2)
+        
+        $0.isScrollEnabled = false
         $0.collectionViewLayout = layout
+        $0.register(NearHobbyCollectionViewCell.self)
+        $0.register(MyHobbyCollectionViewCell.self)
+        $0.register(HobbyHeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: HobbyHeaderView.self.reuseIdentifier)
     }
     
     let findButton = AuthButtonStyle.init(frame: CGRect(), mode: .active, text: "새싹 찾기")

@@ -1,5 +1,5 @@
 //
-//  HobbyCollectionViewCell.swift
+//  NearHobbyCollectionViewCell.swift
 //  SeSAC_Friends
 //
 //  Created by 김승찬 on 2022/02/10.
@@ -10,22 +10,19 @@ import UIKit
 import SnapKit
 import Then
 
-class HobbyCollectionViewCell: UICollectionViewCell {
+class NearHobbyCollectionViewCell: UICollectionViewCell {
     
     let hobbyLabel = UILabel().then {
-        $0.backgroundColor = .red
-        $0.makeRounded(radius: 8)
         $0.font = .systemFont(ofSize: 14)
         $0.textAlignment = .center
     }
-   
     
     override init(frame: CGRect) {
-           super.init(frame: frame)
+        super.init(frame: frame)
         setUI()
         setConstraints()
-       }
-
+    }
+    
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -40,14 +37,14 @@ class HobbyCollectionViewCell: UICollectionViewCell {
         layoutAttributes.frame = frame
         return layoutAttributes
     }
-
+    
     private func setUI() {
-      addSubview(hobbyLabel)
+        addSubview(hobbyLabel)
     }
     
     private func setConstraints() {
         hobbyLabel.snp.makeConstraints {
-            $0.top.leading.equalToSuperview()
+            $0.centerX.centerY.equalToSuperview()
         }
     }
 }
