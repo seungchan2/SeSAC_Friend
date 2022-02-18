@@ -12,6 +12,8 @@ import CoreLocationUI
 import MapKit
 
 final class HomeViewController: BaseViewController {
+    
+    // 홈 뷰 수정 필요 ~ 서버 통신
 
     let homeView = HomeView()
     let locationManager = CLLocationManager()
