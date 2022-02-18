@@ -39,7 +39,7 @@ final class ManagementView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-            setView()
+        setView()
         setConstraints()
     }
     

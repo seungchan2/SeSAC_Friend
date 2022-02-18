@@ -8,6 +8,12 @@
 import UIKit
 
 final class NearSeSacViewController: BaseViewController {
+    
+    let commonView = CommonFindSeSacView()
+    
+    override func loadView() {
+        self.view = commonView
+    }
    
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,7 +22,7 @@ final class NearSeSacViewController: BaseViewController {
     
     override func style() {
         super.style()
-        view.backgroundColor = .red
+        view.backgroundColor = .white
     }
 }
 

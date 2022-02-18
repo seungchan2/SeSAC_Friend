@@ -71,7 +71,7 @@ final class FindSeSACView: UIView {
         pagerTab.snp.makeConstraints {
             $0.top.equalTo(bottomView.snp.bottom)
             $0.leading.trailing.equalToSuperview()
-            $0.bottom.equalTo(safeAreaLayoutGuide)
+            $0.bottom.equalTo(safeAreaInsets)
         }
     }
 }
