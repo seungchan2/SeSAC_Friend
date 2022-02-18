@@ -20,6 +20,11 @@ final class FindSeSACViewController: BaseViewController {
         super.viewDidLoad()
         setContainerViewController()
     }
+    
+    override func style() {
+        super.style()
+        view.backgroundColor = Color.sesacWhite
+    }
 }
 
 extension FindSeSACViewController {
